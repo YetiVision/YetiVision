@@ -34,15 +34,14 @@ theme = "hugo-artists-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "Artists Theme"
-		shortBio = "Thinker // Designer // YouTuber"
+		title = "Accueil"
 
 
 	# About section
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "About me"
+		title = "L'équipe"
 		bio = "**Travis specializes in making things** for human people. Most of the things he makes are [digital interfaces](//travisneilson.com/), but he also puts effort into crafting [next-level beats](//soundcloud.com/travis-neilson) and [YouTube videos](//youtube.com/user/devtipsfordesigners) about making codes happen."
 
 		[[params.about.skills]]
@@ -106,12 +105,12 @@ theme = "hugo-artists-theme"
 
 
 	[params.form]
-		title = "Let's work together"
+		title = "Contactez-nous"
 		# Form fields
-		name = "Your Name"
-		email = "Your Email"
-		message = "Tell me about your project"
-		buttonText = "Send"
+		name = "Nom et Prénom :"
+		email = "Email :"
+		message = "Que souhaitez-vous ?"
+		buttonText = "Envoyer"
 
 
 	[params.footer]
