@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/slider.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/slider/blonde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/slider/bonne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/slider/brune.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/slider/pubg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/slider/rousse.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/slider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-artists-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-artists-theme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +27,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="10" />
-          <entry key="html" value="22" />
+          <entry key="html" value="25" />
           <entry key="scss" value="3" />
           <entry key="toml" value="8" />
           <entry key="yml" value="1" />
@@ -43,7 +36,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="10" />
-          <entry key="HTML" value="22" />
+          <entry key="HTML" value="25" />
           <entry key="SCSS" value="3" />
           <entry key="TOML file" value="8" />
           <entry key="YAML" value="1" />
@@ -52,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="380" />
-          <entry key="html" value="1456" />
+          <entry key="html" value="1502" />
           <entry key="scss" value="18" />
           <entry key="toml" value="319" />
           <entry key="yml" value="6" />
@@ -61,7 +54,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="380" />
-          <entry key="HTML" value="1456" />
+          <entry key="HTML" value="1502" />
           <entry key="SCSS" value="18" />
           <entry key="TOML file" value="319" />
           <entry key="YAML" value="6" />
@@ -71,64 +64,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#nav#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
+        <entry file="file://$PROJECT_DIR$/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/bootstrap/css/bootstrap.css">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="4153" selection-start-line="4153" selection-end-line="4153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-artists-theme/layouts/partials/work.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-artists-theme/exampleSite/data/work.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/menu.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10744">
-              <caret line="632" column="3" selection-start-line="632" selection-start-column="3" selection-end-line="632" selection-end-column="3" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -138,8 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -165,7 +114,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/themes/hugo-artists-theme/layouts/partials/header.html" />
-        <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/static/css/header.css" />
         <option value="$PROJECT_DIR$/layouts/partials/about.html" />
         <option value="$PROJECT_DIR$/data/work.toml" />
@@ -179,6 +127,8 @@
         <option value="$PROJECT_DIR$/static/css/menu.css" />
         <option value="$PROJECT_DIR$/static/css/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/blog.html" />
+        <option value="$PROJECT_DIR$/layouts/index.html" />
       </list>
     </option>
   </component>
@@ -210,6 +160,11 @@
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,32 +172,6 @@
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,12 +215,12 @@
       <workItem from="1533884703086" duration="16918000" />
       <workItem from="1534060421968" duration="4942000" />
       <workItem from="1534065413988" duration="1762000" />
-      <workItem from="1534067291550" duration="3813000" />
+      <workItem from="1534067291550" duration="4331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32228000" />
+    <option name="totallyTimeSpent" value="32746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -342,7 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/index.html" />
     <entry file="file://$PROJECT_DIR$/themes/hugo-artists-theme/layouts/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -464,7 +392,28 @@
     <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
