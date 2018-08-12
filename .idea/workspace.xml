@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/slider.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/slider/blonde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/slider/bonne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/slider/brune.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/slider/pubg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/slider/rousse.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-artists-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-artists-theme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,26 +74,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="399">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#nav#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="4153" lean-forward="true" selection-start-line="4153" selection-end-line="4153" />
+              <caret line="4153" selection-start-line="4153" selection-end-line="4153" />
             </state>
           </provider>
         </entry>
@@ -164,13 +172,13 @@
         <option value="$PROJECT_DIR$/data/clients.toml" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/static/css/all.css" />
-        <option value="$PROJECT_DIR$/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap/scss/_navbar.scss" />
         <option value="$PROJECT_DIR$/static/css/bootstrap/_data/breakpoints.yml" />
         <option value="$PROJECT_DIR$/static/css/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/static/css/menu.css" />
         <option value="$PROJECT_DIR$/static/css/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/layouts/partials/header.html" />
       </list>
     </option>
   </component>
@@ -278,18 +286,18 @@
       <workItem from="1533884703086" duration="16918000" />
       <workItem from="1534060421968" duration="4942000" />
       <workItem from="1534065413988" duration="1762000" />
-      <workItem from="1534067291550" duration="3557000" />
+      <workItem from="1534067291550" duration="3813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31972000" />
+    <option name="totallyTimeSpent" value="32228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.18329719" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.18329719" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32104123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,13 +407,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap/dist/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10744">
@@ -424,13 +425,6 @@
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-artists-theme/exampleSite/data/work.toml">
@@ -453,7 +447,24 @@
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="4153" lean-forward="true" selection-start-line="4153" selection-end-line="4153" />
+          <caret line="4153" selection-start-line="4153" selection-end-line="4153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
