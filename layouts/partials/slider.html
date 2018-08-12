@@ -3,14 +3,14 @@
 <section class="section-slide">
         <div class="slider-wrapper">
             <div class="slider">
-                <div class="slider--item" style="background-image: url(http://deghq.com/yapp/front-labs/codepen-assets/slide-4.jpg)">
-                </div>
-                <div class="slider--item" style="background-image: url(http://deghq.com/yapp/front-labs/codepen-assets/slide-2.jpg)">
-                </div>
-                <div class="slider--item" style="background-image: url(http://deghq.com/yapp/front-labs/codepen-assets/slide-5.jpg)">
-                </div>
-                <div class="slider--item" style="background-image: url(http://deghq.com/yapp/front-labs/codepen-assets/slide-1.jpg)">
-                </div>
+
+                {{ range .Site.Data.slider.slide }}
+
+                    <div class="slider--item" style="background-image: url('img/slider/{{.name}}')">
+                    </div>
+
+                {{ end }}
+
             </div>
         </div>
 </section>

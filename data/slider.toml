@@ -1,0 +1,20 @@
+#Section Slider
+
+title = "home Slider"
+
+[[slide]]
+
+    name = "brune.jpg"
+
+[[slide]]
+
+    name = "blonde.jpg"
+
+[[slide]]
+
+    name = "rousse.jpg"
+
+[[slide]]
+
+    name = "bonne.jpg"
+
