@@ -1,41 +1,32 @@
 {{ "<!-- About section -->" | safeHTML }}
-<section>
+
+<section class="team_section">
     {{ with .Site.Params.about.title }}<h3 id="about-us">{{ . }}</h3>{{ end }}
+            <div class="row">
+                    {{ range .Site.Data.team.Team}}
+                        <div class="col-lg-3">
+                            <div class="face-lockup">
+                                <div class="face-img" style="background-image: url('img/team/{{.profil}}')"></div>
+                                <div class="team_description">
+                                    <h2>{{.name}}</h2>
+                                    <p>{{.Description}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {{end}}
+            </div>
+    <hr>
 
-    <div class="face-lockup">
-        <div class="face-img"></div>
-        <div class="icon-pencil">
-            {{ partial "icons/icon-pencil.html"}}
-        </div>
-        <div class="icon-mouse">
-            {{ partial "icons/icon-mouse.html"}}
-        </div>
-        <div class="icon-browser">
-            {{ partial "icons/icon-browser.html"}}
-        </div>
-        <div class="icon-video">
-            {{ partial "icons/icon-video.html"}}
-        </div>
-    </div>
-
-    {{ with .Site.Params.about.bio }}
-    <div class="blurb">
-        <p>{{ . | markdownify }}</p>
-    </div>
-    {{ end }}
-
-    {{ with .Site.Params.about.skills }}
-    <div class="skill-lockup">
-        {{ range . }}
-        <div class="skill-unit">
-            <div class="skill-label">{{ .name }}</div>
-            <div class="skill-icons skill-{{ .value }}">
-                {{ range (seq 10) }}
-                <span></span>
-                {{ end }}
+        <div class="row col-lg-12">
+            <div class="col-lg-2" id="icon_footer"  >
+                <img class="mobile" src="{{ .Site.BaseURL }}img/team/icon/mobile_icon.png">
+            </div>
+            <div class="col-lg-8" id="text_footer">
+                <p>On vous rappelle? Ou vous pouvez nous contacter au 05.00.00.00.00</p>
+            </div>
+            <div class="col-lg-2" id="icon_discussion">
+                <img class="discuss" src="{{ .Site.BaseURL }}img/team/icon/discus_icon.png">
             </div>
         </div>
-        {{ end }}
-    </div>
-    {{ end }}
+
 </section>
