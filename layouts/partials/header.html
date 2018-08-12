@@ -1,14 +1,13 @@
 {{ "<!-- Header section -->" | safeHTML }}
-<header id="header" style="margin-bottom:10%;">
 
 
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<header id="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style="">
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
             <span class="navbar-toggler-icon"></span>
         </button>
-
 
         <div class="collapse navbar-collapse" id="collapse_target">
         <ul class="navbar-nav">
@@ -30,22 +29,15 @@
         </ul>
         </div>
 
-        <div style="position: absolute; width: 300px; margin-top: 40px; left: 40%;">
+        <div style="width: 20%; position: absolute; left:40%; margin-top: 2%;">
             <img src="../img/logo.png" alt="Logo" id="header-logo">
         </div>
 
-
-        <div class="social-links" style="width: 250px;">
+        <div class="social-links" style="width: 250px; ">
             {{ range .Site.Params.menu.social }}
             <a href="{{ .link }}" class="icon-{{ .icon }}"></a>
             {{ end }}
         </div>
-
-
-
     </nav>
-
-
-
-
 </header>
+
