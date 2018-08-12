@@ -1,0 +1,36 @@
+{{ "<!-- Slider blog -->" | safeHTML }}
+
+
+
+<section class="section-blog" style="background-color: #1e7e34;">
+    {{ with .Site.Data.blog.title }}<h3 id="last-news">{{ . }}</h3>{{ end }}
+        {{ .Content }}
+    <div class="container">
+        <div class="row">
+            {{ range where .Pages "Params.categories" "post"}}
+            <div class="col-lg-4">
+                {{ .Title }}
+                <br>
+
+                <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
+                </time>
+
+                <hr>
+                <img src="{{.Params.img}}" width="80%;"/>
+                <br>
+
+                {{slicestr .Summary 0 200}}...
+                {{ if .Truncated }}
+                <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                <div>
+                    <a href="{{ .RelPermalink }}">Lire la suite…</a>
+                </div>
+                {{ end }}
+
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+</section>

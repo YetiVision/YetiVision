@@ -1,6 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
-languageCode = "en-us"
+languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
 title = "Hugo Artists Theme"
 theme = "hugo-artists-theme"
 
@@ -96,7 +97,6 @@ theme = "hugo-artists-theme"
 		[[params.menu.social]]
 			icon = "linkedin"
 			link = "#"
-
 
 	[params.form]
 		title = "Contactez-nous"
