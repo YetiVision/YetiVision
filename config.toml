@@ -37,44 +37,12 @@ theme = "hugo-artists-theme"
 		title = "Accueil"
 
 
-	# About section
+	#Section about
 	#
-	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	#
+
 	[params.about]
 		title = "L'équipe"
-		bio = "**Travis specializes in making things** for human people. Most of the things he makes are [digital interfaces](//travisneilson.com/), but he also puts effort into crafting [next-level beats](//soundcloud.com/travis-neilson) and [YouTube videos](//youtube.com/user/devtipsfordesigners) about making codes happen."
-
-		[[params.about.skills]]
-			name = "Communication"
-			value = 9
-
-		[[params.about.skills]]
-			name = "Organization"
-			value = 7
-
-		[[params.about.skills]]
-			name = "Learning"
-			value = 10
-
-		[[params.about.skills]]
-			name = "Teaching"
-			value = 6
-
-		[[params.about.skills]]
-			name = "Planning"
-			value = 7
-
-		[[params.about.skills]]
-			name = "Visual Design"
-			value = 5
-
-		[[params.about.skills]]
-			name = "UX Design"
-			value = 8
-
-		[[params.about.skills]]
-			name = "Programming"
-			value = 6
 
 	# Menu secion
 	[params.menu]

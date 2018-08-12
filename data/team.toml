@@ -1,0 +1,28 @@
+#Section About-team
+
+[[Team]]
+
+    name = "Laurent"
+    profil = "laurent.jpg"
+    Description = " Professionnel chargé de la conception et/ou de la programmation de logiciels informatiques"
+
+[[Team]]
+
+    name = "Maxime"
+    profil = "maxime.jpg"
+    Description = " Professionnel chargé de la conception et/ou de la programmation de logiciels informatiques"
+
+[[Team]]
+
+    name = "Marine"
+    profil = "marine.jpg"
+    Description = " Le webdesigner doit maîtriser les logiciels de graphisme (Photoshop, Illustrator...) et connaître les règles de l’ergonomie pour capter l’attention des visiteurs. "
+
+
+[[Team]]
+
+    name = "Loic"
+    profil = "loic.jpg"
+    Description = " Le chargé de communication développe des actions de communication vers des publics variés en cohérence avec la stratégie générale de l’établissement. Il met en œuvre tout moyen, action, réseau de communication visant à faciliter celles-ci au sein et à l’extérieur de sa structure."
+
+
