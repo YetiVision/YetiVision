@@ -66,6 +66,9 @@ theme = "hugo-artists-theme"
 			icon = "linkedin"
 			link = "#"
 
+	[params.blog]
+	    title = "Derniers articles"
+
 	[params.form]
 		title = "Contactez-nous"
 		# Form fields

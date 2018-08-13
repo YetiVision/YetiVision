@@ -3,7 +3,7 @@
 
 
 <section class="section-blog" style="background-color: #1e7e34;">
-    {{ with .Site.Data.blog.title }}<h3 id="last-news">{{ . }}</h3>{{ end }}
+    {{ with .Site.Params.blog.title }}<h3 id="last-news">{{ . }}</h3>{{ end }}
         {{ .Content }}
     <div class="container">
         <div class="row">
@@ -32,5 +32,4 @@
             {{ end }}
         </div>
     </div>
-
 </section>
