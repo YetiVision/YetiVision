@@ -1,16 +1,31 @@
-<section id="main">
-    <h1 id="title">{{ .Title }}</h1>
-    <div>
-        <article id="content">
-            {{ .Content }}
-        </article>
+{{ define "main" }}
+<section style="margin: 5% 0 0 0;">
+    <div class="container">
+        <div class="row">
+            <div col-lg-6>
+                <h1>{{.Title}}</h1>
+                <h4 id="date"> <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                    <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
+                    </time> </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="{{.Params.img}}" />
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <article id="content">
+                {{ .Content }}
+            </article>
+        </div>
     </div>
+
 </section>
 <aside id="meta">
     <div>
         <section>
-            <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
-            <h5 id="wordcount"> {{ .WordCount }} Words </h5>
+
         </section>
         {{ with .Params.topics }}
         <ul id="topics">
@@ -36,3 +51,7 @@
         {{ end }}
     </div>
 </aside>
+{{ end }}
+
+
+
