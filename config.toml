@@ -97,7 +97,6 @@ theme = "hugo-artists-theme"
 			icon = "linkedin"
 			link = "#"
 
-
 	[params.form]
 		title = "Contactez-nous"
 		# Form fields
