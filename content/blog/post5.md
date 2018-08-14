@@ -2,7 +2,7 @@
 title: "Post5"
 date: 2018-08-13T10:27:20+02:00
 draft: true
-img: "img/blog/post2.jpg"
+img: "/img/blog/post2.jpg"
 author: "Maxime"
 categories: "post"
 ---
