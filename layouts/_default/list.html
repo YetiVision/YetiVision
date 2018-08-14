@@ -4,24 +4,29 @@
         <div class="row">
             {{ range where .Pages "Params.categories" "post"}}
             <div class="col-lg-12">
-                {{ .Title }}
-                <br>
-                <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-                <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
-                </time>
+                <h1>{{ .Title }}</h1>
 
-                <hr>
-                <img src="{{.Params.img}}" width="80%;"/>
+                <div class="row" style="margin-bottom: 5%;">
+                    <div class="col-lg-6">
+                        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                        <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
+                        </time>
+                        <br>
 
-                {{slicestr .Summary 0 200}}...
-                {{ if .Truncated }}
-                <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                <div>
-                    <button class="btn btn-primary"><a href="{{ .RelPermalink }}" style="color:white;">Lire la suite</a></button>
-                    <hr>
+                        <img src="{{.Params.img}}" style="width:80%; float:left;"/>
+                    </div>
+                    <div class="col-lg-6" style="margin-top: 1.5%;">
+                        {{slicestr .Summary 0 200}}...
+                        {{ if .Truncated }}
+
+                        <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                        <div style="margin-top: 3%;">
+                            <button class="btn btn-primary"><a href="{{ .RelPermalink }}" style="color:white;">Lire la suite</a></button>
+                        </div>
+                        {{ end }}
+                    </div>
                 </div>
-                {{ end }}
-
+                <hr>
             </div>
             {{ end }}
         </div>
