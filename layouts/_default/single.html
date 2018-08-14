@@ -1,56 +1,59 @@
 {{ define "main" }}
-<section style="margin: 5% 0 0 0;">
+<section style="margin: 10% 0 0 0;">
     <div class="container">
         <div class="row">
-            <div col-lg-6>
-                <h1>{{.Title}}</h1>
+            <div class="col-lg-12" style="padding-left: 45%;">
+
+                <div class="row">
+
+
+                        {{ with .PrevInSection }}
+                        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+                        {{ end }}
+
+
+
+                    <h1>{{.Title}}</h1>
+
+
+
+                        {{ with .NextInSection }}
+                        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+                        {{ end }}
+
+
+                </div>
+
+
                 <h4 id="date"> <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
                     <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
                     </time> </h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-                <img src="{{.Params.img}}" />
+            <div class="col-lg-12" style="padding-left:20%;">
+                    <img src="{{.Params.img}}"/>
             </div>
         </div>
-        <div class="col-lg-12">
-            <article id="content">
-                {{ .Content }}
-            </article>
+        <div class="row">
+            <div class="col-lg-10" style="padding-left: 20%;">
+                <blockquote class="blockquote" style="text-align: justify; margin-top: 2%; font-size: 1.2em;">
+                    {{ .Content }}
+                </blockquote>
+            </div>
+        </div>
+<hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Laissez un commentaire</h1>
+            </div>
+            <div class="col-lg-12" style="border: 3px solid blue; width: 100px; height:100px;">
+
+            </div>
         </div>
     </div>
-
 </section>
-<aside id="meta">
-    <div>
-        <section>
 
-        </section>
-        {{ with .Params.topics }}
-        <ul id="topics">
-            {{ range . }}
-            <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
-            {{ end }}
-        </ul>
-        {{ end }}
-        {{ with .Params.tags }}
-        <ul id="tags">
-            {{ range . }}
-            <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
-            {{ end }}
-        </ul>
-        {{ end }}
-    </div>
-    <div>
-        {{ with .PrevInSection }}
-        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-        {{ with .NextInSection }}
-        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-    </div>
-</aside>
 {{ end }}
 
 
