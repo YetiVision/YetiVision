@@ -7,7 +7,13 @@
         <div class="row">
             {{ range where .Pages.ByDate "Params.categories" "event"}}
             <div class="col-lg-12">
-                <h3>{{ .Title }}</h3>
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                <img src="{{.Params.img}}" style="width:50%;"/>
             </div>
             {{ end }}
         </div>
