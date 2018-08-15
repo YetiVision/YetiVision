@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-artists-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-artists-theme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +21,9 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -245,16 +245,17 @@
       <workItem from="1534182096086" duration="8628000" />
       <workItem from="1534246419001" duration="16987000" />
       <workItem from="1534317894573" duration="941000" />
+      <workItem from="1534318870982" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78542000" />
+    <option name="totallyTimeSpent" value="78852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,7 +268,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.324295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.324295" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32104123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -553,10 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,24 +568,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#form#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/contact/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/contact/contact.html" />
     <entry file="file://$PROJECT_DIR$/content/work/proj-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -599,18 +582,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/contact/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact/_index.md" />
     <entry file="file://$PROJECT_DIR$/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
