@@ -3,15 +3,14 @@
 
     <div class="row">
     {{ range .Site.Data.work.projects }}
-
-    <a href="#" class="game-tile game-animate">
-        <img src="img/work/{{.folder}}/thumb.jpg" class="game-image">
-        <div class="game-animation-wrapper">
-            <div class="game-overlay">
-                <span class="game-title">{{ .name }}</span>
+        <a href="#" class="game-tile game-animate">
+            <img src="img/work/{{.folder}}/thumb.jpg" class="game-image">
+            <div class="game-animation-wrapper">
+                <div class="game-overlay">
+                    <span class="game-title">{{ .name }}</span>
+                </div>
             </div>
-        </div>
-    </a>
+        </a>
     {{ end }}
     </div>
 
