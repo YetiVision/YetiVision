@@ -16,7 +16,7 @@ theme = "hugo-artists-theme"
 	description = "Agence digitale"
     adress = "4 rue du Projet 06100 Nice"
     phonenumber = "+33000000000"
-	# Since this template is static, the contact form uses www.formspree.io as a
+	# Since this template is static, the contactcall form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
 	# email. Visitors can send up to a 1000 emails each month for free.
     #
