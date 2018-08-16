@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="contactcall">
     {{ with .Site.Params.form.title }}<h3 id="form-title">{{ . }}</h3>{{ end }}
-    <form method="POST" action="//formspree.io/{{ with .Site.Params.email }}{{ . }}{{ end }}">
+    <form class="form-first" method="POST" action="//formspree.io/{{ with .Site.Params.email }}{{ . }}{{ end }}">
         <fieldset class="contact-info-group">
                 {{ with .Site.Params.form.name }}<label><span>{{ . }}</span>{{ end }}
                 <input type="text" name="name">
@@ -24,10 +24,31 @@
         </fieldset>
     </form>
 
-    <div class="contact-information">
-        <img src="">
-
-
+        <div class="contact-information">
+            <div class="row">
+               <div class="information-side col-lg-6">
+                   <div class="mail-section">
+                        <h2>Mail</h2>
+                        <p>Yeti-Vision@gmail.com</p>
+                   </div>
+                   <div class="phone-section">
+                        <h2>Téléphone</h2>
+                        <p>+33000000000</p>
+                   </div>
+                   <div class="address-section">
+                        <h2>Adresse</h2>
+                        <p>4 rue du projet</p><br>
+                        <p>06100 Nice</p>
+                   </div>
+               </div>
+                   <div class="col-lg-6">
+                       <img class="img-yeti" src="{{ .Site.BaseURL }}img/contact/YetiJimmy.png">
+                   </div>
+            </div>
+        </div>
+    <div class="map-information">
+        <img class="map-img"  src="{{ .Site.BaseURL }}img/contact/googlemapnice.jpeg">
     </div>
+
 </section>
 {{end}}

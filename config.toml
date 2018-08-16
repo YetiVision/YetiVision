@@ -33,7 +33,7 @@ theme = "hugo-artists-theme"
 	# Header an navigation
 	#
 	# To change the header background the 'hero-bg-jpg' at 'static/img'.
-	# Do the same with the Jimmy ('Jimmy.svg').
+	# Do the same with the jimmy ('jimmy.svg').
 	# But keep the original filename!
 	[params.header]
 		title = "Accueil"
