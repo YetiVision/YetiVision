@@ -1,5 +1,9 @@
 {{ define "main" }}
 <section class="contactcall">
+    <div class="container-intro-text">
+        <h3 class="intro-text">N'hésitez pas à venir prendre un café à l'agence, nous serions enchantés de discuter de votre projet !</h3>
+    </div>
+
     {{ with .Site.Params.form.title }}<h3 id="form-title">{{ . }}</h3>{{ end }}
     <form class="form-first" method="POST" action="//formspree.io/{{ with .Site.Params.email }}{{ . }}{{ end }}">
         <fieldset class="contact-info-group">

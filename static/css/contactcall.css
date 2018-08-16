@@ -104,3 +104,8 @@ form .contact-info-group span{
     width: 100%;
     height: 100%;
 }
+
+.container-intro-text{
+    margin-right: 10%;
+    margin-left: 10%;
+}
