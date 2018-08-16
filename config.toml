@@ -2,7 +2,7 @@
 baseurl = "https://example.org/"
 languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
-title = "Hugo Artists Theme"
+title = "Yeti-Vision"
 theme = "hugo-artists-theme"
 
 [params]
@@ -12,9 +12,10 @@ theme = "hugo-artists-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
-
+	name = "Yeti-Vision"
+	description = "Agence digitale"
+    adress = "4 rue du Projet 06100 Nice"
+    phonenumber = "+33000000000"
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
 	# email. Visitors can send up to a 1000 emails each month for free.
@@ -26,7 +27,7 @@ theme = "hugo-artists-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "contact@yeti-vision.com"
 
 
 	# Header an navigation
@@ -51,26 +52,29 @@ theme = "hugo-artists-theme"
 		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.menu.social]]
-        			icon = "facebook"
-        			link = "#"
+        	icon = "facebook"
+        	link = "#"
 
 		[[params.menu.social]]
 			icon = "twitter"
+			link = "#"
+
+        [[params.menu.social]]
+			icon = "linkedin"
 			link = "#"
 
 		[[params.menu.social]]
 			icon = "instagram"
 			link = "#"
 
-		[[params.menu.social]]
-			icon = "linkedin"
-			link = "#"
-
 	[params.blog]
 	    title = "Derniers articles"
 
+	[params.events]
+        title = "Nos évènements"
+
 	[params.form]
-		title = "Contactez-nous"
+		title = "Contact"
 		# Form fields
 		name = "Nom et Prénom :"
 		email = "Email :"
@@ -79,4 +83,6 @@ theme = "hugo-artists-theme"
 
 
 	[params.footer]
-		copyright = "Published under the Unlicense License."
+		copyright = "©"
+		right = "All right reserved"
+		powered = "Powered by Yeti-Vision"

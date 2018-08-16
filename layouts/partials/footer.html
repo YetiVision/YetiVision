@@ -1,11 +1,23 @@
 {{ "<!-- Footer section -->" | safeHTML }}
 <footer id="footer">
-    <div class="lockup">
-        <div class="content-wrap">
-            <nav>
-                <span class="copyright">© Copyright {{ .Date.Format "2006" }} -</span>
-                <a href="#work">Mentions légales</a>
-            </nav>
+
+        <div class="row">
+            <div class="col-lg-4" style="text-align: center;">
+                {{ .Site.Params.email }}<br>
+                {{ .Site.Params.adress }}<br>
+                {{ .Site.Params.phonenumber }}
+            </div>
+            <div class="col-lg-4" style="padding-left: 8%">
+                <div class="social-links">
+                    {{ range .Site.Params.menu.social }}
+                    <a href="{{ .link }}" class="icon-{{ .icon }}" ></a>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-lg-4" style="text-align: center;">
+                {{ .Site.Params.footer.copyright }} {{ .Date.Format "2006" }} {{ .Site.Params.name }} | {{ .Site.Params.footer.right }}<br>
+                {{ .Site.Params.footer.powered }}<br>
+            </div>
         </div>
-    </div>
+
 </footer>
