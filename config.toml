@@ -33,7 +33,7 @@ theme = "hugo-artists-theme"
 	# Header an navigation
 	#
 	# To change the header background the 'hero-bg-jpg' at 'static/img'.
-	# Do the same with the logo ('logo.svg').
+	# Do the same with the Jimmy ('Jimmy.svg').
 	# But keep the original filename!
 	[params.header]
 		title = "Accueil"
@@ -76,9 +76,9 @@ theme = "hugo-artists-theme"
 	[params.form]
 		title = "Contact"
 		# Form fields
-		name = "Nom et Prénom :"
-		email = "Email :"
-		message = "Que souhaitez-vous ?"
+		name = "Nom et Prénom"
+		email = "Email"
+		message = "Message"
 		buttonText = "Envoyer"
 		society = "Entreprise"
 		phone = "Telephone"
