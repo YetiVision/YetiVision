@@ -39,6 +39,11 @@ form .contact-info-group label:nth-child(1) {
     padding-right: 10px; }
 form .contact-info-group label:nth-child(2) {
     padding-left: 10px; }
+form .contact-info-group label:nth-child(3) {
+    padding-left: 10px; }
+form .contact-info-group label:nth-child(4) {
+    padding-left: 10px; }
+
 form label {
     display: block;
     margin-bottom: 20px; }
@@ -52,8 +57,14 @@ form label span {
         padding: 0; }
     form .contact-info-group label:nth-child(2) {
         padding: 0; }
+    form .contact-info-group label:nth-child(3) {
+        padding: 0; }
+    form .contact-info-group label:nth-child(4) {
+        padding: 0; }
     form [type="submit"] {
         width: 100%; } }
+
+
 .form-success {
     background: #e5eaee;
     text-align: center; }
