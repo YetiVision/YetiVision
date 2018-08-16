@@ -1,6 +1,6 @@
 {{ "<!-- Header section -->" | safeHTML }}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,28 +10,25 @@
             <li class="nav-item active">
                 {{ with .Site.Params.header.title }}<a class="nav-link" href="/#header">{{ . }} <span class="sr-only">(current)</span></a>{{ end }}
             </li>
-            <li class="nav-item">
-                {{ with .Site.Params.about.title }}<a class="nav-link" href="/#about-us">{{ . }}</a>{{ end }}
+            <li class="nav-item dropdown">
+                {{ with .Site.Params.events.title }}<a class="nav-link" href="/events">{{ . }}</a>{{ end }}
             </li>
             <li class="nav-item dropdown">
                 {{ with .Site.Data.work.title }}<a class="nav-link" href="/#work">{{ . }}</a>{{ end }}
             </li>
             <li class="nav-item dropdown">
-                {{ with .Site.Data.clients.title }}<a class="nav-link" href="/#clients">{{ . }}</a>{{ end }}
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link" href="/events">Nos évènements</a>
+                <a class="nav-link" href="/blog">Blog</a>
             </li>
             <li class="nav-item dropdown">
                 {{ with .Site.Params.form.title }}<a class="nav-link" href="/#form-title">{{ . }}</a>{{ end }}
             </li>
         </ul>
-        <div class="social-links" style="width:250px;">
+        <div class="social-links">
             {{ range .Site.Params.menu.social }}
             <a href="{{ .link }}" class="icon-{{ .icon }}" ></a>
             {{ end }}
         </div>
-        <div class="lrg-logo" style="position:absolute; width: 300px; left:40%; top: 10%; z-index:1; ">
+        <div class="lrg-logo">
             <img src="/img/logo.png" alt="Logo" id="header-logo">
         </div>
     </div>

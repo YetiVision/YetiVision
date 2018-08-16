@@ -2,7 +2,7 @@
 baseurl = "https://example.org/"
 languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
-title = "Hugo Artists Theme"
+title = "YetiVision"
 theme = "hugo-artists-theme"
 
 [params]
@@ -51,8 +51,8 @@ theme = "hugo-artists-theme"
 		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.menu.social]]
-        			icon = "facebook"
-        			link = "#"
+        	icon = "facebook"
+        	link = "#"
 
 		[[params.menu.social]]
 			icon = "twitter"
@@ -69,8 +69,11 @@ theme = "hugo-artists-theme"
 	[params.blog]
 	    title = "Derniers articles"
 
+	[params.events]
+        title = "Nos évènements"
+
 	[params.form]
-		title = "Contactez-nous"
+		title = "Contact"
 		# Form fields
 		name = "Nom et Prénom :"
 		email = "Email :"

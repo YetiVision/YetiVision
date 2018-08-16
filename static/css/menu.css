@@ -1,7 +1,23 @@
 .lrg-logo {
-    opacity: 1;
+    position:absolute;
+    width: 300px;
+    left:42%;
+    top: 20%;
+    z-index:1;
 }
 
 .sml-logo {
-    opacity: 0;
+    position:absolute;
+    width: 150px;
+    left:45%;
+    top: 10%;
+    z-index:1;
+}
+
+.social-links{
+    width: 250px;
+}
+
+#header-logo{
+    width: 100%;
 }
