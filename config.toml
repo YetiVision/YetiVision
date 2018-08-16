@@ -80,6 +80,8 @@ theme = "hugo-artists-theme"
 		email = "Email :"
 		message = "Que souhaitez-vous ?"
 		buttonText = "Envoyer"
+		society = "Entreprise"
+		phone = "Telephone"
 
 
 	[params.footer]
