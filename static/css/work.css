@@ -1,7 +1,8 @@
 .section-work{
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%;
+    margin: auto;
+    padding-left:8%;
 }
 
 .game-tile {
