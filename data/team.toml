@@ -4,25 +4,25 @@
 
     name = "Laurent"
     profil = "laurent.jpg"
-    Description = " Professionnel chargé de la conception et/ou de la programmation de logiciels informatiques"
+    Description = " Véritable communicant, Laurent réalise des sites Ultras performants qui mettent en valeur votre entreprise"
 
 [[Team]]
 
     name = "Maxime"
     profil = "maxime.jpg"
-    Description = " Professionnel chargé de la conception et/ou de la programmation de logiciels informatiques"
+    Description = "Maxime manie code sources et bases de données pour réaliser vos développements du site internet sur mesure"
 
 [[Team]]
 
     name = "Marine"
     profil = "marine.jpg"
-    Description = " Le webdesigner doit maîtriser les logiciels de graphisme (Photoshop, Illustrator...) et connaître les règles de l’ergonomie pour capter l’attention des visiteurs. "
+    Description = "Webdesigner en herbe, Marine vous aidera à créer une identité visuelle personnalisée et vous proposera un design innovant pour vous démarquer"
 
 
 [[Team]]
 
     name = "Loic"
     profil = "loic.jpg"
-    Description = " Le chargé de communication développe des actions de communication vers des publics variés en cohérence avec la stratégie générale de l’établissement. Il met en œuvre tout moyen, action, réseau de communication visant à faciliter celles-ci au sein et à l’extérieur de sa structure."
+    Description = "Expert en Marketing, Loïc saura mettre en avant votre communication et votre site sur le web et les moteurs de recherche grâce au Web Marketing et au SEO"
 
 
