@@ -43,9 +43,9 @@
     <div class="clients-logos">
         {{ range $i, $e := .Site.Data.clients.list }}
         {{ if eq $i 0 }}
-        <img class="client-logo active-client" src="img/clients/{{ .logo }}" align="{{ .logo }}">
+        <img class="client-logo active-client" src="img/clients/{{ .logo }}" align="{{ .logo }}" style="width:10%;">
         {{ else }}
-        <img class="client-logo" src="img/clients/{{ .logo }}" align="{{ .logo }}">
+        <img class="client-logo" src="img/clients/{{ .logo }}" align="{{ .logo }}" style="width:10%;">
         {{ end }}
         {{ end }}
     </div>

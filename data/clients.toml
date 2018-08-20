@@ -2,18 +2,18 @@
 title = "Références"
 
 [[list]]
-    avatar = "face-aaroni.jpg"
-    name   = "Scott Summers"
-    title  = "Director of Design, OnToText Ind."
-    quote  = "**While we all felt that Travis was a great** asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often."
-    logo   = "logo1.png"
+    avatar = "face-bp.jpg"
+    name   = "Nadège Blot"
+    title  = "Conseillère juridique, Banque Postale"
+    quote  = "**Mon expérience avec l'agence Yeti Vision a été formidable.** L'équipe est très à l'écoute et toujours disponible. Mon projet était de créer une identité visuelle et une application mobile pour un concour la banque postale et le résultat de l'agence Yeti Vision a été au-delà de mes espérances ! Je ferai de nouveau affaire avec eux dans l'avenir sans hésiter."
+    logo   = "la-banque-postale.jpg"
 
 [[list]]
     avatar = "face-atariboy.jpg"
     name   = "Hank McCoy"
     title  = "Eater of Salad, Antartica Int."
     quote  = "**Working with Travis was the highlight of my career.** Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying \"uh huh, and then what?\" 30 times in a row to my girlfriend without her noticing."
-    logo   = "logo2.png"
+    logo   = "carrefour.png"
 
 [[list]]
     avatar = "face-jackiesaik.jpg"
