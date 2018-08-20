@@ -52,20 +52,27 @@ theme = "hugo-artists-theme"
 		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.menu.social]]
-        	icon = "facebook"
+        	icon = "img/icones/facebook_black.png"
         	link = "#"
 
 		[[params.menu.social]]
-			icon = "twitter"
+			icon = "/img/icones/twitter_blac.png"
 			link = "#"
 
         [[params.menu.social]]
-			icon = "linkedin"
+			icon = "/img/icones/linkedin_black.png"
 			link = "#"
 
 		[[params.menu.social]]
-			icon = "instagram"
+			icon = "img/icones/instagram_black.png"
 			link = "#"
+
+		[[params.menu.social]]
+		    icon = "img/icones/contact_black.png"
+		    link = "#"
+		[[params.menu.social]]
+		    icon = "img/icones/news_black.png"
+            link = "#"
 
 	[params.blog]
 	    title = "Derniers articles"

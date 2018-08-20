@@ -1148,41 +1148,41 @@ footer {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  .social-links a {
-    display: block;
-    border: 2px solid #000000;
-    margin-left:2%;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    color: #000000;
-    border-radius: 50%;
-    font-size: 28px;
-    padding-left: 0.3em;
-    position: relative; }
-    .social-links a:after {
-      content: "";
-      color:#000000;
-      display: block;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      border: 2px solid #000000;
-      border-radius: 50%;
-      margin: -2px;
-      opacity: 1;
-      -webkit-transition: all 0.15s ease-out 0s;
-      -moz-transition: all 0.15s ease-out 0s;
-      transition: all 0.15s ease-out 0s; }
-    .social-links a:hover:after {
-      -webkit-transform: scale(1.5);
-      -moz-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-      -o-transform: scale(1.5);
-      transform: scale(1.5);
-      opacity: 0; }
+  /*.social-links a {*/
+    /*display: block;*/
+    /*border: 2px solid #000000;*/
+    /*margin-left:2%;*/
+    /*height: 50px;*/
+    /*width: 50px;*/
+    /*line-height: 50px;*/
+    /*color: #000000;*/
+    /*border-radius: 50%;*/
+    /*font-size: 28px;*/
+    /*padding-left: 0.3em;*/
+    /*position: relative; }*/
+    /*.social-links a:after {*/
+      /*content: "";*/
+      /*color:#000000;*/
+      /*display: block;*/
+      /*position: absolute;*/
+      /*top: 0px;*/
+      /*right: 0px;*/
+      /*bottom: 0px;*/
+      /*left: 0px;*/
+      /*border: 2px solid #000000;*/
+      /*border-radius: 50%;*/
+      /*margin: -2px;*/
+      /*opacity: 1;*/
+      /*-webkit-transition: all 0.15s ease-out 0s;*/
+      /*-moz-transition: all 0.15s ease-out 0s;*/
+      /*transition: all 0.15s ease-out 0s; }*/
+    /*.social-links a:hover:after {*/
+      /*-webkit-transform: scale(1.5);*/
+      /*-moz-transform: scale(1.5);*/
+      /*-ms-transform: scale(1.5);*/
+      /*-o-transform: scale(1.5);*/
+      /*transform: scale(1.5);*/
+      /*opacity: 0; }*/
 
 .bar {
   width: 250px;
