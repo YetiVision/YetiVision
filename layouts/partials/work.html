@@ -1,13 +1,14 @@
 <section class="alt-section section-work">
-    {{ with .Site.Data.work.title }}<h3 id="work">{{ . }}</h3>{{ end }}
+    {{ with .Site.Data.work.title }}<h3 id="work">Nos Services</h3>{{ end }}
 
     <div class="row game-block" >
     {{ range .Site.Data.work.projects }}
         <a href="#" class="game-tile game-animate">
-            <img src="img/work/{{.folder}}/thumb.jpg" class="game-image">
+            <img src="{{ .image }}" class="game-image">
             <div class="game-animation-wrapper">
                 <div class="game-overlay">
-                    <span class="game-title">{{ .name }}</span>
+                    <span class="game-title">{{ .name }}</span><br>
+                    <span class="game-icon"> <img src="{{ .icon }}" alt="" /></span>
                 </div>
             </div>
         </a>

@@ -40,7 +40,7 @@
 .game-overlay {
     color: white;
     background-color: black;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(196, 229, 235, 0.75);
     font: normal 20px "avenir-next-rounded-std-med", Arial, sans-serif;
     height: 100%;
     position: absolute;
@@ -54,6 +54,12 @@
     margin: 26px 14px 0;
     max-height: 72px;
     overflow: hidden;
+    color: black;
+    font-size: 1.3em;
+}
+
+.game-icon img {
+    width: 50%;
 }
 
 .game-overlay {

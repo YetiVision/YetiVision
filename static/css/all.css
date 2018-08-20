@@ -596,10 +596,10 @@ fieldset {
   h3 {
     padding: 50px 0 50px; } }
 .alt-section {
-  background: #e5eaee;
+
   padding-bottom: 100px; }
   .alt-section h3 {
-    color: #d7ae5c; }
+    color: #000; }
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;

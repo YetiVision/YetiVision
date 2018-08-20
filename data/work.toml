@@ -2,33 +2,31 @@
 title = "Services"
 
 [[projects]]
-    name = "TYPO International Design Talks"
-    folder = "proj-1"
+    name = "Création"
+    image = "img/work/services_creation.jpg"
+    icon = "img/icones/creation_black.png"
 
 [[projects]]
-    name = "City-IN website concept"
-    folder = "proj-2"
+    name = "Développement"
+    image = "img/work/services_dev.jpg"
+    icon = "img/icones/dev_black.png"
 
 [[projects]]
-    name = "Crispy Icons"
-    folder = "proj-3"
+    name = "Marketing Digital"
+    image = "img/work/services_marketing.jpg"
+    icon = "img/icones/marketing_black.png"
 
 [[projects]]
-    name = "Flat Mobile UI/UX Concept"
-    folder = "proj-4"
+    name = "Ergonomie"
+    image = "img/work/services_ergonomie.jpg"
+    icon = "img/icones/ergonomie_black.png"
 
 [[projects]]
-    name = "Fresh It Up"
-    folder = "proj-5"
+    name = "Evenementiel"
+    image = "img/work/services_event.jpg"
+    icon = "img/icones/event_black.png"
 
 [[projects]]
-    name = "Timeline Page"
-    folder = "proj-6"
-
-[[projects]]
-    name = "Weather Dashboard"
-    folder = "proj-7"
-
-[[projects]]
-    name = "Stripes & Co"
-    folder = "proj-8"
+    name = "Formation"
+    image = "img/work/services_formation.jpg"
+    icon = "img/icones/formation_black.png"
