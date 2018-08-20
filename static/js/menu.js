@@ -1,15 +1,15 @@
-$(function() { var logo = $(".lrg-jimmy"); $(window).scroll(function() {
+$(function() { var logo = $(".lrg-logo"); $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 200) {
-        if(!logo.hasClass("sml-jimmy")) {
+        if(!logo.hasClass("sml-logo")) {
             // jimmy.hide();
-            logo.removeClass('lrg-jimmy').addClass("sml-jimmy").fadeIn( "slow");
+            logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
         }
     } else {
-        if(!logo.hasClass("lrg-jimmy")) {
+        if(!logo.hasClass("lrg-logo")) {
             // jimmy.hide();
-            logo.removeClass("sml-jimmy").addClass('lrg-jimmy').fadeIn( "slow");
+            logo.removeClass("sml-logo").addClass('lrg-logo').fadeIn( "slow");
         }
     }
 
