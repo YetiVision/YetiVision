@@ -9,24 +9,22 @@
         <div class="row">
             {{ range first 3 (where .Pages "Params.categories" "post")}}
             <div class="col-lg-4">
-                {{ .Title }}
-                <br>
+                <div class="head-title-last-news">
+                <h4 style="text-align: center;">{{ .Title }}</h4>
 
-                <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                <time class="post-date" style="margin-left: 37%;" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
                 <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
                 </time>
-
+                </div>
                 <hr>
-                <img src="{{.Params.img}}" width="80%;"/>
+                <img src="{{.Params.img}}" style="width: 80%; margin-left: 11%;"/>
                 <br>
 
-                {{slicestr .Summary 0 200}}...
-                {{ if .Truncated }}
-                <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                <div>
-                    <button class="btn btn-primary"><a href="{{ .RelPermalink }}" style="color:white;">Lire la suite</a></button>
+                <div style="text-align: center; margin-top: 5%;">
+                    <button class="button-two"><a href="{{ .RelPermalink }}" style="color:white;"><span>Découvrez la suite</span></a></button>
                 </div>
-                {{ end }}
+
+
 
             </div>
             {{ end }}
