@@ -115,9 +115,12 @@
 }
 
 #text_footer{
-    font-size: xx-large;
-    flex-grow: 5;
+    font-size: 1.2em;
     margin: auto;
+    padding-top: 1%;
+    background-color: #c4e5eb;
+    text-align: center;
+    border-radius: 75px 75px 75px 75px;
 }
 
 #icon_discussion{
@@ -138,4 +141,26 @@
     position: absolute;
     top: 41%;
     left: 66%;
+}
+
+.jimmy-souleve-left, .jimmy-souleve-right {
+    width: 8%;
+}
+
+.jimmy-souleve-left {
+    position: absolute;
+    left: 27%;
+    top: 70%;
+}
+
+.jimmy-souleve-right {
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
