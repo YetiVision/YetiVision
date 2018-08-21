@@ -5,18 +5,21 @@
     name = "Laurent"
     profil = "laurent.jpg"
     Description = " Véritable communicant, Laurent réalise des sites Ultras performants qui mettent en valeur votre entreprise"
+    icon = "img/icones/dev_black.png"
 
 [[Team]]
 
     name = "Maxime"
     profil = "maxime.jpg"
     Description = "Maxime manie code sources et bases de données pour réaliser vos développements du site internet sur mesure"
+    icon = "img/icones/dev_black.png"
 
 [[Team]]
 
     name = "Marine"
     profil = "marine.jpg"
     Description = "Webdesigner en herbe, Marine vous aidera à créer une identité visuelle personnalisée et vous proposera un design innovant pour vous démarquer"
+    icon = "img/icones/creation_black.png"
 
 
 [[Team]]
@@ -24,5 +27,6 @@
     name = "Loic"
     profil = "loic.jpg"
     Description = "Expert en Marketing, Loïc saura mettre en avant votre communication et votre site sur le web et les moteurs de recherche grâce au Web Marketing et au SEO"
+    icon = "img/icones/marketing_black.png"
 
 

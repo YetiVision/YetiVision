@@ -27,6 +27,7 @@
     justify-content: space-between;
     -ms-flex-pack: justify; }
 .face-lockup .face-img {
+    margin-bottom: 4%;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -39,11 +40,6 @@
     -moz-order: 3;
     order: 3;
     -ms-flex-order: 3; }
-.face-lockup [class^="icon-"] {
-    height: 100px;
-    width: 100px;
-    background: #e5eaee;
-    border-radius: 50%; }
 .face-lockup [class^="icon-"] path {
     fill: #c99065; }
 .face-lockup [class^="icon-"].icon-pencil {
@@ -134,4 +130,12 @@
 
 .row.col-lg-12{
     padding-bottom: 15px;
+}
+
+
+.icon-profile {
+    width: 16%;
+    position: absolute;
+    top: 41%;
+    left: 66%;
 }

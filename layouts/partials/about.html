@@ -6,10 +6,11 @@
                     {{ range .Site.Data.team.Team}}
                         <div class="col-lg-3">
                             <div class="face-lockup">
-                                <div class="face-img" style="background-image: url('img/team/{{.profil}}')"></div>
+                                <div class="face-img" style="background-image: url('img/team/{{.profil}}')"><img src="{{.icon}}" class="icon-profile"></div>
+
                                 <div class="team_description">
                                     <h2>{{.name}}</h2>
-                                    <p>{{.Description}}</p>
+                                    <p style="min-height: 100px;">{{.Description}}</p>
                                 </div>
                             </div>
                         </div>

@@ -702,9 +702,6 @@ footer {
     order: 3;
     -ms-flex-order: 3; }
   .face-lockup [class^="icon-"] {
-    height: 100px;
-    width: 100px;
-    background: #e5eaee;
     border-radius: 50%; }
     .face-lockup [class^="icon-"] path {
       fill: #c99065; }
