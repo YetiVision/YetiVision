@@ -356,3 +356,62 @@
         -moz-transform: rotate3d(0, 1, 0, 102deg);
     }
 }
+
+
+.snip1581 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 250px;
+    width: 40%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.snip1581 img {
+    width: 120%;
+    vertical-align: top;
+    filter: contrast(30%);
+}
+.snip1581 figcaption {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 5%;
+    right: 0;
+    font-size: 1.2em;
+    padding: 20px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+}
+
+.snip1581:hover img,
+.snip1581.hover img {
+    -webkit-transform: scale(1.3) rotate(5deg);
+    transform: scale(1.3) rotate(5deg);
+}
+
+.single-service .previous, .single-service .next {
+    font-size: 5em;
+    color: #c4e5eb;
+    margin-left: 10%;
+}
+
+.single-service .previous:hover, .single-service .next:hover {
+    font-size: 5em;
+    color: #615da1;
+}
+
+.single-service h1 {
+    font-size: 3em;
+}

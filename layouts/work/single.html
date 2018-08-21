@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="single-service" style="margin: 6% 0 0 15%;">
+    <div>
+        {{ with .NextInSection }}
+        <a class="next" href="{{.Permalink}}"> < </a>
+        {{ end }}
+        {{ with .PrevInSection }}
+            <a class="previous" href="{{.Permalink}}"> > </a>
+        {{ end }}
+
+
+        <div style="display: flex; justify-content: center;">
+            <div>
+                <h1 style="text-align: center;">{{.Title}}</h1>
+                <div class="div-icon" style="text-align: center;">
+                    <img src="{{ .Params.iconSingle }}" alt="" style="width: 80%;">
+                </div>
+            </div>
+
+
+            <figure class="snip1581"><img src="{{ .Params.img }}" alt="profile-sample2"/>
+                <figcaption>
+                    {{ .Content }}
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+
+
+
+
+
+</section>
+{{end}}

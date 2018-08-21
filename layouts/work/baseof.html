@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+
+{{partial "header.html" .}}
+
+{{ block "main" . }}
+
+{{ end }}
+{{ partial "footer.html"  . }}
+
+<script src="{{ .Site.BaseURL }}js/menu.js"></script>
+<script src="{{ .Site.BaseURL }}js/social-icon.js"></script>
+</body>
+</html>

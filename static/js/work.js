@@ -71,3 +71,10 @@ function gameOverlay() {
     }
 
 }
+
+
+$(".hover").mouseleave(
+    function () {
+        $(this).removeClass("hover");
+    }
+);

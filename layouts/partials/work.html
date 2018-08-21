@@ -2,13 +2,13 @@
     {{ with .Site.Data.work.title }}<h3 id="work">Nos Services</h3>{{ end }}
 
     <div class="row game-block" >
-    {{ range .Site.Data.work.projects }}
-        <a href="#" class="game-tile game-animate">
-            <img src="{{ .image }}" class="game-image">
+        {{ range where .Pages "Params.categories" "work" }}
+        <a href="{{ .RelPermalink }}" alt="" class="game-tile game-animate">
+            <img src="{{ .Params.img }}" class="game-image">
             <div class="game-animation-wrapper">
                 <div class="game-overlay">
-                    <span class="game-title">{{ .name }}</span><br>
-                    <span class="game-icon"> <img src="{{ .icon }}" alt="" /></span>
+                    <span class="game-title">{{ .Title }}</span><br>
+                    <span class="game-icon"> <img src="{{ .Params.icon }}" alt="" /></span>
                 </div>
             </div>
         </a>
