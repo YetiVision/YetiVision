@@ -12,6 +12,6 @@ $(function() { var logo = $(".lrg-logo"); $(window).scroll(function() {
             logo.removeClass("sml-logo").addClass('lrg-logo').fadeIn( "slow");
         }
     }
+});
+});
 
-});
-});
