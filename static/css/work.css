@@ -10,7 +10,7 @@
 }
 
 .game-tile {
-    border: 2px solid #aeaeae;
+    border: 1px solid #fff;
     display: block;
     float: left;
     position: relative;
