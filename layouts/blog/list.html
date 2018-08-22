@@ -2,7 +2,9 @@
 <section id="section-list-post">
     <div class="container">
         <div class="row">
-            {{ range where .Pages "Params.categories" "post"}}
+
+            {{ $paginator := .Paginate ((first 50 (where .Pages "Params.categories" "post"))) }}
+            {{ range $paginator.Pages }}
             <div class="col-lg-12">
                 <h1>{{ .Title }}</h1>
 
@@ -29,6 +31,8 @@
                 <hr>
             </div>
             {{ end }}
+            {{ partial "pagination" . }}
+
         </div>
     </div>
 

@@ -4,6 +4,7 @@ languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
 title = "Yeti-Vision"
 theme = "hugo-artists-theme"
+paginate = 4
 
 [params]
 

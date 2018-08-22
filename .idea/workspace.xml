@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/layouts/partials/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
     </list>
@@ -31,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="82" />
-          <entry key="html" value="276" />
+          <entry key="css" value="83" />
+          <entry key="html" value="278" />
           <entry key="js" value="23" />
           <entry key="json" value="1" />
           <entry key="md" value="89" />
           <entry key="scss" value="7" />
-          <entry key="toml" value="51" />
+          <entry key="toml" value="52" />
           <entry key="url" value="1" />
           <entry key="yaml" value="1" />
           <entry key="yml" value="1" />
@@ -45,36 +48,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="82" />
-          <entry key="HTML" value="276" />
+          <entry key="CSS" value="83" />
+          <entry key="HTML" value="278" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="23" />
           <entry key="Markdown" value="89" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
-          <entry key="TOML file" value="51" />
+          <entry key="TOML file" value="52" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3817" />
-          <entry key="html" value="10724" />
+          <entry key="css" value="3853" />
+          <entry key="html" value="10832" />
           <entry key="js" value="774" />
           <entry key="md" value="4366" />
           <entry key="scss" value="22" />
-          <entry key="toml" value="2490" />
+          <entry key="toml" value="2504" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3817" />
-          <entry key="HTML" value="10724" />
+          <entry key="CSS" value="3853" />
+          <entry key="HTML" value="10832" />
           <entry key="JavaScript" value="774" />
           <entry key="Markdown" value="4366" />
           <entry key="SCSS" value="22" />
-          <entry key="TOML file" value="2490" />
+          <entry key="TOML file" value="2504" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -85,10 +88,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/blog/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+            <state relative-caret-position="17">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <folding>
+                <element signature="e#238#245#0" expanded="true" />
+                <element signature="e#716#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+            <state relative-caret-position="418">
+              <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -109,8 +134,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -151,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layouts/partials/contact.html" />
-        <option value="$PROJECT_DIR$/static/js/menu.js" />
         <option value="$PROJECT_DIR$/data/menu.toml" />
         <option value="$PROJECT_DIR$/static/js/menu-icon.js" />
         <option value="$PROJECT_DIR$/static/css/menu.css" />
@@ -200,7 +223,9 @@
         <option value="$PROJECT_DIR$/static/js/social-icon.js" />
         <option value="$PROJECT_DIR$/static/css/events.css" />
         <option value="$PROJECT_DIR$/layouts/partials/header-list-single.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/layouts/blog/list.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/pagination.html" />
         <option value="$PROJECT_DIR$/static/css/blog.css" />
       </list>
     </option>
@@ -240,6 +265,12 @@
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
@@ -316,12 +347,12 @@
       <workItem from="1534408599029" duration="16863000" />
       <workItem from="1534746578251" duration="21451000" />
       <workItem from="1534834260020" duration="29382000" />
-      <workItem from="1534920664214" duration="17875000" />
+      <workItem from="1534920664214" duration="20450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169399000" />
+    <option name="totallyTimeSpent" value="171974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,26 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="116" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/work/proj-1.md" />
     <entry file="file://$PROJECT_DIR$/content/work/proj-4.md" />
     <entry file="file://$PROJECT_DIR$/content/work/_index.md" />
@@ -747,20 +758,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/blog/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#238#245#0" expanded="true" />
+            <element signature="e#716#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+        <state relative-caret-position="418">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
         </state>
       </provider>
     </entry>

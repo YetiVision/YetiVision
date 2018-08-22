@@ -91,7 +91,7 @@
 /* LIST PAGE */
 
 #section-list-post {
-    margin: 7% 0 5% 0;
+    margin: 7% 0 15% 0;
 }
 
 .btn-readmore a {
@@ -109,6 +109,49 @@
     background-color: rgba(196, 229, 235, 1);
 }
 
+.pagination {
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    margin: 20px 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.homepage .page-link,
+.listing .page-link {
+    background-color: #fff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-link:hover{
+    color: #73bfc9;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #000;
+    background-color: #c4e5eb;
+    border-color: #c4e5eb;
+}
 
 
 /* SINGLE PAGE */
@@ -158,3 +201,4 @@
 .single-post-icons {
     text-align: right;
 }
+
