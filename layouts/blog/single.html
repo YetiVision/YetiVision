@@ -1,56 +1,43 @@
 {{ define "main" }}
-<section style="margin: 10% 0 0 0;">
+<section id="section-single-post">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12" style="padding-left: 45%;">
-
-                <div class="row">
-
-
+        <div class="row div-content-title-single-post">
+            <div class="col-lg-12">
+                    <h1>
                         {{ with .PrevInSection }}
-                        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+                            <a class="previous" href="{{.Permalink}}"> <span class="btn-previous"><</span></a>
                         {{ end }}
 
-
-
-                    <h1>{{.Title}}</h1>
-
-
+                        {{.Title}}
 
                         {{ with .NextInSection }}
-                        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+                            <a class="next" href="{{.Permalink}}"><span class="btn-next">></span></a>
                         {{ end }}
+                    </h1>
 
-
-                </div>
-
-
-                <h4 id="date"> <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-                    <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
-                    </time> </h4>
+                    <h4 id="date">
+                        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                        <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
+                        </time>
+                    </h4>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12" style="padding-left:20%;">
-                    <img src="{{.Params.img}}"/>
+
+        <div class="row div-content-img-single-post">
+            <div class="col-lg-12"  style="text-align: center;">
+                    <img src="{{.Params.img}}" class="img-single-post"/>
             </div>
         </div>
-        <div class="row">
+
+        <div class="row div-content-text-single-post">
             <div class="col-lg-10" style="padding-left: 20%;">
                 <blockquote class="blockquote" style="text-align: justify; margin-top: 2%; font-size: 1.2em;">
                     {{ .Content }}
                 </blockquote>
             </div>
         </div>
-<hr>
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Laissez un commentaire</h1>
-            </div>
-            <div class="col-lg-12" style="border: 3px solid blue; width: 100px; height:100px;">
 
-            </div>
-        </div>
+        <hr>
     </div>
 </section>
 

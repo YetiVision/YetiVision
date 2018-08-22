@@ -1,3 +1,5 @@
+/* HOMEPAGE */
+
 .snip1552 {
     position: relative;
     display: inline-block;
@@ -84,4 +86,35 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+}
+
+
+/* SINGLE */
+
+#section-single-post {
+    margin: 10% 0 0 0;
+}
+
+#section-single-post .div-content-title-single-post {
+    margin-bottom: 2%;
+}
+
+#section-single-post h1 {
+    text-align: center;
+}
+
+#section-single-post .div-content-img-single-post {
+    margin-bottom: 3%;
+}
+
+#section-single-post .img-single-post {
+    width: 80%;
+}
+
+#section-single-post #date {
+    text-align: center;
+}
+
+#section-single-post .div-content-text-single-post {
+    margin-bottom: 15%;
 }
