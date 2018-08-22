@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                {{ with .Site.Params.header.title }}<a class="nav-link" href="/">{{ . }} <span class="sr-only">(current)</span></a>{{ end }}
+                {{ with .Site.Params.header.title }}<a class="nav-link" href="/#header">{{ . }} <span class="sr-only">(current)</span></a>{{ end }}
             </li>
             <li class="nav-item dropdown">
                 {{ with .Site.Params.events.title }}<a class="nav-link" href="/events">{{ . }}</a>{{ end }}
@@ -31,7 +31,7 @@
             <a href="#"><img src="/img/icones/contact_black.png" id="icon-contact" style="width: 50px; height: 50px;"/></a>
             <a href="#"><img src="/img/icones/news_black.png" id="icon-news" style="width: 50px; height: 50px;"/></a>
         </div>
-        <div class="lrg-logo">
+        <div class="sml-logo">
             <img src="/img/logo.png" alt="Logo" id="header-logo">
         </div>
     </div>
