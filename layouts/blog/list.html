@@ -2,7 +2,7 @@
 <section id="section-list-post">
     <div class="container">
         <div class="row">
-
+            <h1 style="margin: auto auto 5% auto; font-size: 3em;">Blog</h1>
             {{ $paginator := .Paginate ((first 50 (where .Pages "Params.categories" "post"))) }}
             {{ range $paginator.Pages }}
             <div class="col-lg-12">
