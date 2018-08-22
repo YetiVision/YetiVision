@@ -3,17 +3,14 @@
     <div class="container">
         <div class="row div-content-title-single-post">
             <div class="col-lg-12">
-                    <h1>
-                        {{ with .PrevInSection }}
-                            <a class="previous" href="{{.Permalink}}"> <span class="btn-previous"><</span></a>
-                        {{ end }}
-
-                        {{.Title}}
-
-                        {{ with .NextInSection }}
-                            <a class="next" href="{{.Permalink}}"><span class="btn-next">></span></a>
-                        {{ end }}
-                    </h1>
+                <h1>{{ with .PrevInSection }}
+                    <a class="previous" href="{{.Permalink}}"> <span class="btn-previous"><img src="/img/glyph-iconset-master/svg/si-glyph-arrow-left.svg"/></span></a>
+                    {{ end }}
+                    {{.Title}}
+                    {{ with .NextInSection }}
+                    <a class="next" href="{{.Permalink}}"><span class="btn-next"><img src="/img/glyph-iconset-master/svg/si-glyph-arrow-right.svg" /></span></a>
+                    {{ end }}
+                </h1>
 
                     <h4 id="date">
                         <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">

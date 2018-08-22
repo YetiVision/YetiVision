@@ -118,3 +118,17 @@
 #section-single-post .div-content-text-single-post {
     margin-bottom: 15%;
 }
+
+#section-single-post .btn-previous img{
+    height: 32px;
+    width: 32px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+#section-single-post .btn-next img{
+    height: 32px;
+    width: 32px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
