@@ -118,3 +118,38 @@
 .previous:hover, .next:hover{
     text-decoration: none;
 }
+
+/* SINGLE PAGE */
+
+#section-single-event {
+    margin: 5% 0 0 0;
+}
+
+#section-single-event h1 {
+    text-align: center;
+}
+
+#section-single-event .btn-previous img{
+    height: 32px;
+    width: 32px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+#section-single-event .btn-next img{
+    height: 32px;
+    width: 32px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+#section-single-event .img-single-event {
+    width: 100%;
+    margin-right: 2%;
+}
+
+.div-content-single {
+    text-align: justify;
+    width: 70%;
+    font-size: 1.2em;
+}
