@@ -24,7 +24,7 @@
         <textarea name="message"></textarea>
     </label>
         <fieldset class="submit-wrap">
-            <input type="submit" value="{{ with .Site.Params.form.buttonText }}{{ . }}{{ end }}">
+            <input type="submit" class="btn-submit-contact" value="{{ with .Site.Params.form.buttonText }}{{ . }}{{ end }}">
         </fieldset>
     </form>
 
@@ -41,8 +41,8 @@
                    </div>
                    <div class="address-section">
                         <h2>Adresse</h2>
-                        <p>4 rue du projet</p><br>
-                        <p>06100 Nice</p>
+                        <p>4 rue du projet<br>
+                            06100 Nice</p>
                    </div>
                </div>
                    <div class="col-lg-6">

@@ -1,3 +1,7 @@
+.contactcall{
+    margin: 5% 0 10% 0;
+}
+
 form {
     max-width: 100%;
     padding: 0 20px;
@@ -5,7 +9,7 @@ form {
     margin-right: 10%;
 }
 form input, form textarea {
-    border: 3px solid #c99065;
+    border: 2px solid #000;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -15,6 +19,10 @@ form input, form textarea {
     -moz-appearance: none;
     appearance: none;
     font-size: 16px; }
+
+form .btn-submit-contact{
+    border: 2px solid #000;
+}
 
 form input:focus, form textarea:focus {
     outline: none;
@@ -26,8 +34,8 @@ form textarea {
 form .submit-wrap {
     text-align: left; }
 form [type="submit"] {
-    background: #c99065;
-    color: white;
+    background: #c4e5eb;
+    color: black;
     font-size: 18px;
     text-transform: uppercase;
     width: 33%; }
