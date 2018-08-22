@@ -87,5 +87,29 @@ $(function(){
             $(this).attr('src','/img/icones/contact_black.png');
         }
     });
+    $("#icon-fb-single-post").on({
+        mouseenter: function(){
+            $(this).attr('src','/img/icones/facebook_purple.png');
+        },
+        mouseleave: function(){
+            $(this).attr('src','/img/icones/facebook_black.png');
+        }
+    });
+    $("#icon-twitter-single-post").on({
+        mouseenter: function(){
+            $(this).attr('src','/img/icones/twitter_purple.png');
+        },
+        mouseleave: function(){
+            $(this).attr('src','/img/icones/twitter_black.png');
+        }
+    });
+    $("#icon-instagram-single-post").on({
+        mouseenter: function(){
+            $(this).attr('src','/img/icones/instagram_purple.png');
+        },
+        mouseleave: function(){
+            $(this).attr('src','/img/icones/instagram_black.png');
+        }
+    });
 
 });
