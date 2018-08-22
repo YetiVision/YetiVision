@@ -88,8 +88,30 @@
     opacity: 1;
 }
 
+/* LIST PAGE */
 
-/* SINGLE */
+#section-list-post {
+    margin: 7% 0 5% 0;
+}
+
+.btn-readmore a {
+    color: #000;
+}
+
+.btn-readmore {
+    background-color: rgba(196, 229, 235, 0.7);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-readmore:hover {
+    background-color: rgba(196, 229, 235, 1);
+}
+
+
+
+/* SINGLE PAGE */
 
 #section-single-post {
     margin: 7% 0 0 0;

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section style="margin: 7% 0 5% 0;">
+<section id="section-list-post">
     <div class="container">
         <div class="row">
             {{ range where .Pages "Params.categories" "post"}}
@@ -21,7 +21,7 @@
 
                         <!-- This <div> includes a read more link, but only if the summary is truncated... -->
                         <div style="margin-top: 3%;">
-                            <button class="btn btn-primary"><a href="{{ .RelPermalink }}" style="color:white;">Lire la suite</a></button>
+                            <button class="btn-readmore"><a href="{{ .RelPermalink }}">Lire la suite</a></button>
                         </div>
                         {{ end }}
                     </div>
