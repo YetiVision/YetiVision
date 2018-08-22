@@ -6,7 +6,8 @@
                     {{ range .Site.Data.team.Team}}
                         <div class="col-lg-3">
                             <div class="face-lockup">
-                                <div class="face-img" style="background-image: url('img/team/{{.profil}}')"><img src="{{.icon}}" class="icon-profile"></div>
+                                <div class="face-img" style="background-image: url('img/team/{{.profil}}');"></div>
+                                <div style="position: absolute; top: 41%; left: 9%; width:80%;"><img src="{{.icon}}" class="icon-profile"></div>
 
                                 <div class="team_description">
                                     <h2>{{.name}}</h2>

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/css/clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/clients.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/btn-scroll-top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/blog/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/contactcall/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/contactcall/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/events/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/events/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/work/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/work/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/all.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +38,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="64" />
-          <entry key="html" value="225" />
-          <entry key="js" value="17" />
+          <entry key="css" value="66" />
+          <entry key="html" value="236" />
+          <entry key="js" value="18" />
           <entry key="md" value="88" />
           <entry key="scss" value="7" />
-          <entry key="toml" value="50" />
+          <entry key="toml" value="51" />
           <entry key="url" value="1" />
           <entry key="yaml" value="1" />
           <entry key="yml" value="1" />
@@ -43,20 +51,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="64" />
-          <entry key="HTML" value="225" />
-          <entry key="JavaScript" value="17" />
+          <entry key="CSS" value="66" />
+          <entry key="HTML" value="236" />
+          <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="88" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
-          <entry key="TOML file" value="50" />
+          <entry key="TOML file" value="51" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3185" />
-          <entry key="html" value="9635" />
+          <entry key="css" value="3227" />
+          <entry key="html" value="9984" />
           <entry key="js" value="750" />
           <entry key="md" value="4365" />
           <entry key="scss" value="22" />
@@ -66,8 +74,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3185" />
-          <entry key="HTML" value="9635" />
+          <entry key="CSS" value="3227" />
+          <entry key="HTML" value="9984" />
           <entry key="JavaScript" value="750" />
           <entry key="Markdown" value="4365" />
           <entry key="SCSS" value="22" />
@@ -80,17 +88,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/clients.html">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153" />
+            <state relative-caret-position="136">
+              <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/blog/baseof.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/contactcall/baseof.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/events/baseof.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/clients.css">
+        <entry file="file://$PROJECT_DIR$/layouts/work/baseof.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+            <state relative-caret-position="357">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,8 +155,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -133,6 +187,7 @@
       <find>.h3</find>
       <find>.face</find>
       <find>footer</find>
+      <find>fill</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layouts/partials/clients.html" />
         <option value="$PROJECT_DIR$/static/js/blog.js" />
         <option value="$PROJECT_DIR$/content/blog/conseils-hackeuse.md" />
         <option value="$PROJECT_DIR$/layouts/partials/newsletter.html" />
@@ -155,16 +209,11 @@
         <option value="$PROJECT_DIR$/static/css/newsletter.css" />
         <option value="$PROJECT_DIR$/data/team.toml" />
         <option value="$PROJECT_DIR$/static/css/team.css" />
-        <option value="$PROJECT_DIR$/layouts/partials/about.html" />
-        <option value="$PROJECT_DIR$/layouts/blog/baseof.html" />
         <option value="$PROJECT_DIR$/static/js/social-icon.js" />
         <option value="$PROJECT_DIR$/static/js/events.js" />
-        <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/static/css/contact.css" />
-        <option value="$PROJECT_DIR$/layouts/events/baseof.html" />
-        <option value="$PROJECT_DIR$/static/css/all.css" />
         <option value="$PROJECT_DIR$/layouts/events/list.html" />
         <option value="$PROJECT_DIR$/content/events/concert-de-poil-lunaire-en-association-avec-yeti-vision.md" />
         <option value="$PROJECT_DIR$/static/css/events.css" />
@@ -174,7 +223,6 @@
         <option value="$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md" />
         <option value="$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md" />
         <option value="$PROJECT_DIR$/content/events/journee-de-campagne-de-yeti-vision-a-nice.md" />
-        <option value="$PROJECT_DIR$/layouts/work/baseof.html" />
         <option value="$PROJECT_DIR$/content/work/creation.md" />
         <option value="$PROJECT_DIR$/layouts/partials/work.html" />
         <option value="$PROJECT_DIR$/archetypes/work.md" />
@@ -190,9 +238,16 @@
         <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/layouts/contactcall/single.html" />
-        <option value="$PROJECT_DIR$/layouts/contactcall/baseof.html" />
         <option value="$PROJECT_DIR$/static/css/contactcall.css" />
         <option value="$PROJECT_DIR$/static/css/clients.css" />
+        <option value="$PROJECT_DIR$/static/js/btn-scroll-top.js" />
+        <option value="$PROJECT_DIR$/static/css/all.css" />
+        <option value="$PROJECT_DIR$/layouts/partials/about.html" />
+        <option value="$PROJECT_DIR$/layouts/index.html" />
+        <option value="$PROJECT_DIR$/layouts/blog/baseof.html" />
+        <option value="$PROJECT_DIR$/layouts/contactcall/baseof.html" />
+        <option value="$PROJECT_DIR$/layouts/events/baseof.html" />
+        <option value="$PROJECT_DIR$/layouts/work/baseof.html" />
       </list>
     </option>
   </component>
@@ -201,6 +256,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/static/img/glyph-iconset-master/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="245" />
@@ -235,13 +295,8 @@
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,6 +319,7 @@
       <recent name="C:\wamp64\www\yetivision\layouts\_default" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\yetivision\layouts" />
       <recent name="C:\wamp64\www\yetivision\content\work" />
       <recent name="C:\wamp64\www\yetivision\layouts\contact" />
     </key>
@@ -305,12 +361,12 @@
       <workItem from="1534408599029" duration="16863000" />
       <workItem from="1534746578251" duration="21451000" />
       <workItem from="1534834260020" duration="29382000" />
-      <workItem from="1534920664214" duration="4037000" />
+      <workItem from="1534920664214" duration="7117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155561000" />
+    <option name="totallyTimeSpent" value="158641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -365,42 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/team.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/team.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/events/event1.md" />
     <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -431,20 +451,6 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Home.url">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/events/list.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -520,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/events/baseof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="60" lean-forward="true" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/work/proj-1.md" />
     <entry file="file://$PROJECT_DIR$/content/work/proj-4.md" />
     <entry file="file://$PROJECT_DIR$/content/work/_index.md" />
@@ -544,13 +543,6 @@
             <caret selection-end-line="8" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/work/baseof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -719,20 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/contactcall/baseof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/blog/baseof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/contactcall.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -747,15 +725,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/clients.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/clients.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/clients.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-artists-theme/layouts/partials/icons/icon-back.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/icons/icon-back.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/icons/icon-next.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="105" lean-forward="true" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="1285" column="18" selection-start-line="1285" selection-start-column="18" selection-end-line="1285" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/btn-scroll-top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/blog/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/contactcall/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/events/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/work/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
