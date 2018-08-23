@@ -1,12 +1,16 @@
 /* HOMEPAGE */
 
+.section-blog {
+    margin-bottom: 3%;
+}
+
 .snip1552 {
     position: relative;
     display: inline-block;
     overflow: hidden;
-    margin: 8px;
+    margin: auto;
     min-width: 230px;
-    max-width: 350px;
+    max-width: 500px;
     width: 100%;
     color: #000000;
     text-align: left;
@@ -25,6 +29,7 @@
     vertical-align: top;
     max-width: 100%;
     backface-visibility: hidden;
+    min-height: 333px;
 }
 
 .snip1552 figcaption {
@@ -39,7 +44,6 @@
 
 .snip1552 h3,
 .snip1552 p {
-    margin: 0;
     opacity: 0;
     letter-spacing: 1px;
 }
@@ -50,6 +54,7 @@
     text-transform: uppercase;
     font-size: 1.1em;
     margin-bottom: 5px;
+    margin-top: 5%;
     padding-top: 0;
     padding-bottom: 15px;
     margin-bottom: 0;
@@ -59,6 +64,7 @@
     font-weight: normal;
     font-style: italic;
     color: #888;
+    margin-top: 5%;
     font-size: 0.9em;
     padding-left: 15px;
     -webkit-transform: translateX(-25px);

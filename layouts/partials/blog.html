@@ -3,24 +3,20 @@
 <section class="section-blog">
     {{ with .Site.Params.blog.title }}<h3 id="last-news">{{ . }}</h3>{{ end }}
         {{ .Content }}
-    <div class="container">
-        <div class="row">
+        <div class="row" style="margin: 0;">
             {{ range first 3 (where .Pages "Params.categories" "post")}}
-            <div class="col-lg-4">
             <figure class="snip1552">
                 <img src="{{ .Params.img }}" alt="sample91" />
                 <figcaption>
                     <h3>{{ .Title }}</h3>
 
-                    <p>{{slicestr .Summary 0 70}}...<br>
+                    <p>{{slicestr .Summary 0 200}}...<br>
                         <em style="color: black; float: right;"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
                             <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
                             </time></em></p>
                 </figcaption>
                 <a href="{{ .RelPermalink }}"></a>
             </figure>
-            </div>
             {{ end }}
         </div>
-    </div>
 </section>
