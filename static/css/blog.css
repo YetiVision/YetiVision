@@ -243,3 +243,56 @@
     text-align: right;
 }
 
+.div-content-text-single-post .blockquote {
+    text-align: justify;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+.div-content-text-single-post .col-lg-10 {
+    padding-left: 20%;
+}
+
+#icon-fb-single-post, #icon-twitter-single-post, #icon-instagram-single-post {
+    width: 50px;
+    height: 50px;
+}
+
+@media all and (max-width: 980px){
+    #section-single-post {
+        margin: 20% 0 50% 0;
+    }
+
+    #section-single-post h1 {
+        font-size: 1.5em;
+    }
+    #section-single-post .btn-previous img{
+        display: none;
+    }
+
+    #section-single-post .btn-next img{
+        display: none;
+    }
+
+    #section-single-post .img-single-post {
+        width: 100%;
+    }
+
+    #section-single-post #date {
+        font-size: 1em;
+    }
+
+    .div-content-text-single-post .blockquote {
+        font-size: 1em;
+    }
+
+    .div-content-text-single-post .col-lg-10 {
+        padding: 0 10% 0 10%;
+    }
+
+    #icon-fb-single-post, #icon-twitter-single-post, #icon-instagram-single-post {
+        width: 40px;
+        height: 40px;
+    }
+}
+
