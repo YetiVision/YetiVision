@@ -159,6 +159,41 @@
     border-color: #c4e5eb;
 }
 
+.img-list-post {
+    width:80%;
+    float:left;
+}
+
+@media all and (max-width: 980px){
+    #section-list-post {
+        margin: 20% 0 50% 0;
+    }
+
+    .title-list-post {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .summary-list-post {
+        display: none;
+    }
+
+    .post-date {
+        text-align: center;
+    }
+
+    .div-date-img-list-post {
+        text-align: center;
+    }
+
+    .img-list-post {
+        float: none;
+    }
+
+    .pagination-list-post{
+        margin: auto;
+    }
+}
 
 /* SINGLE PAGE */
 
