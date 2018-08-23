@@ -1,5 +1,5 @@
 #section-events {
-    margin: 7% 0 5% 0;
+    margin: 7% 0 10% 0;
     clear: both;
 }
 
@@ -14,7 +14,7 @@
     display: inline-block;
     font-size: 14px;
     margin: 8px;
-    max-width: 315px;
+    max-width: 500px;
     min-width: 230px;
     overflow: hidden;
     position: relative;
@@ -48,6 +48,7 @@
 .snip1554 img {
     vertical-align: top;
     max-width: 100%;
+    min-height: 331px;
     backface-visibility: hidden;
 }
 
@@ -64,8 +65,8 @@
 
 .snip1554 h3 {
 
-    font-size: 1.4em;
-    font-weight: 400;
+    font-size: 2em;
+    font-weight: bold;
     line-height: 1.1em;
     margin: 0px 0px 0px 0px;
     text-transform: uppercase;

@@ -2,12 +2,11 @@
 
 
 <section id="section-events">
-    <div class="container">
         <h1>Nos évènements</h1>
         <div class="row justify-content-lg-center">
             {{ range where .Pages.ByDate "Params.categories" "event"}}
             <figure class="snip1554 col-lg-auto" style="padding: 0;">
-                <img src="{{ .Params.img }}" alt="" style="min-height: 208px;" />
+                <img src="{{ .Params.img }}" alt="" />
                 <figcaption>
                     <h3>{{ .Title }}</h3>
                 </figcaption>
@@ -15,6 +14,5 @@
             </figure>
             {{ end }}
         </div>
-    </div>
 </section>
 {{ end }}
