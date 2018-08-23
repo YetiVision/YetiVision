@@ -365,7 +365,7 @@
     margin: 8px;
     min-width: 250px;
     width: 100%;
-    background-color: #000000;
+    background-color: #fff;
     color: #ffffff;
     text-align: left;
     font-size: 16px;
@@ -378,9 +378,12 @@
     box-sizing: border-box;
 }
 .snip1581 img {
-    width: 120%;
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
     vertical-align: top;
     filter: contrast(30%);
+    filter:opacity(50%);
 }
 .snip1581 figcaption {
     position: absolute;
