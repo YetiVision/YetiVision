@@ -1,14 +1,14 @@
-.section-newsletter{
+#section-newsletter{
     background-color: #615da1;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.section-newsletter h2 {
+#section-newsletter h2 {
     font-size: 1.7em;
 }
 
-.section-newsletter form{
+#section-newsletter form{
     margin-bottom: 0;
 }
 
