@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="contactcall">
     <div class="container-intro-text">
-        <h3 class="intro-text">N'hésitez pas à venir prendre un café à l'agence, nous serions enchantés de discuter de votre projet !</h3>
+        <p class="intro-text">N'hésitez pas à venir prendre un café à l'agence, nous serions enchantés de discuter de votre projet !</p>
     </div>
 
     {{ with .Site.Params.form.title }}<h3 id="form-title">{{ . }}</h3>{{ end }}
@@ -45,7 +45,7 @@
                             06100 Nice</p>
                    </div>
                </div>
-                   <div class="col-lg-6">
+                   <div class="col-lg-6 contact-information-yeti">
                        <img class="img-yeti" src="{{ .Site.BaseURL }}img/contact/YetiJimmy.png">
                    </div>
             </div>

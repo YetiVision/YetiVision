@@ -117,3 +117,41 @@ form .contact-info-group span{
     margin-right: 10%;
     margin-left: 10%;
 }
+
+@media all and (max-device-width: 480px){
+
+    .contactcall{
+        margin: 20% 0 50% 0;
+    }
+
+    .contactcall .intro-text {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contactcall #form-title {
+        font-size: 2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact-information {
+        margin-left: 5%;
+    }
+
+    .contact-information h2 {
+        font-size: 1.3em;
+        color: #c4e5eb;
+        font-weight: 300;
+    }
+
+    .contact-information-yeti {
+        position: absolute;
+        left: 45%;
+        top: 71%;
+    }
+
+    .map-img{
+        display: none;
+    }
+}
