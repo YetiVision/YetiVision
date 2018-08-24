@@ -1313,3 +1313,6 @@ form {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
 }
+
+@media all and (max-width: 980px){
+}

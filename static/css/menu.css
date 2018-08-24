@@ -21,3 +21,57 @@
 #header-logo{
     width: 100%;
 }
+
+.social-icon-menu {
+    display: flex;
+}
+
+.social-icon-menu #icon-fb, .social-icon-menu #icon-twitter, .social-icon-menu #icon-linkedin, .social-icon-menu #icon-instagram, .social-icon-menu #icon-contact, .social-icon-menu #icon-news{
+    width: 50px;
+    height: 50px;
+}
+
+@media all and (max-width: 980px){
+    #header-logo{
+        width: 50%;
+    }
+
+    .navbar-light .navbar-toggler {
+        position: fixed;
+        left: 82%;
+        top: 8%;
+        min-height: 50px;
+        z-index: 5;
+    }
+
+    .lrg-logo {
+        position: absolute;
+        width: 300px;
+        left: 30%;
+        top: 40%;
+        z-index: 1;
+    }
+
+    .sml-logo {
+        position:absolute;
+        width: 300px;
+        left: 30%;
+        top: 40%;
+        z-index:1;
+    }
+
+    .social-icon-menu #icon-fb, .social-icon-menu #icon-twitter, .social-icon-menu #icon-linkedin, .social-icon-menu #icon-instagram, .social-icon-menu #icon-contact, .social-icon-menu #icon-news{
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar .col-lg-3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .social-icon-menu {
+        justify-content: space-between;
+    }
+
+}

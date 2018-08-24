@@ -28,3 +28,9 @@
 #mc-embedded-subscribe:hover{
     background-color: rgba(196,229,235,0.8);
 }
+
+@media all and (max-width: 980px) {
+    #mc_embed_signup #mce-EMAIL{
+        width: 100%;
+    }
+}
