@@ -4,7 +4,7 @@
 
 form {
     max-width: 100%;
-    padding: 0 20px;
+    padding: 0;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -66,27 +66,15 @@ form label span {
 .contactcall .intro-text {
     font-size: 2em;
     text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .contact-information h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #c4e5eb;
     font-weight: 300;
 }
-
-@media (max-width: 541px) {
-    form .contact-info-group label {
-        width: 100%; }
-    form .contact-info-group label:nth-child(1) {
-        padding: 0; }
-    form .contact-info-group label:nth-child(2) {
-        padding: 0; }
-    form .contact-info-group label:nth-child(3) {
-        padding: 0; }
-    form .contact-info-group label:nth-child(4) {
-        padding: 0; }
-    form [type="submit"] {
-        width: 100%; } }
 
 .form-success {
     background: #e5eaee;
@@ -98,20 +86,22 @@ form .contact-info-group span{
     margin-bottom: 15px;
 }
 
-.contact-information{
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+.contact-information {
+    display: flex;
+
 }
 
-.img-yeti{
+.information-side {
     width: 60%;
-    text-align: right;
+    margin-left: 10%;
 }
 
-.information-side{
-    margin-top: auto;
-    margin-bottom: auto;
+.contact-information-yeti {
+    width: 50%;
+}
+
+.img-yeti {
+    width: 60%;
 }
 
 .map-information{
@@ -124,12 +114,31 @@ form .contact-info-group span{
     height: 100%;
 }
 
-.container-intro-text{
-    margin-right: 10%;
-    margin-left: 10%;
-}
-
 @media all and (max-device-width: 480px){
+
+    form .contact-info-group label {
+        width: 100%;
+    }
+
+    form .contact-info-group label:nth-child(1) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(2) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(3) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(4) {
+        padding: 0;
+    }
+
+    form [type="submit"] {
+        width: 100%;
+    }
 
     .contactcall{
         margin: 20% 0 50% 0;
@@ -156,13 +165,18 @@ form .contact-info-group span{
         font-weight: 300;
     }
 
-    .contact-information-yeti {
-        position: absolute;
-        left: 45%;
-        top: 71%;
-    }
+    /*.contact-information-yeti {*/
+        /*position: absolute;*/
+        /*left: 45%;*/
+        /*top: 71%;*/
+    /*}*/
 
     .map-img{
         display: none;
+    }
+
+    .img-yeti {
+        width: 100%;
+        padding-top: 40%;
     }
 }
