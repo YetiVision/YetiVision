@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/contactcall/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/contactcall/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/contactcall.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/contactcall.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +32,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="95" />
-          <entry key="html" value="299" />
+          <entry key="css" value="96" />
+          <entry key="html" value="300" />
           <entry key="js" value="23" />
           <entry key="json" value="1" />
           <entry key="md" value="89" />
@@ -47,8 +46,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="95" />
-          <entry key="HTML" value="299" />
+          <entry key="CSS" value="96" />
+          <entry key="HTML" value="300" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="23" />
           <entry key="Markdown" value="89" />
@@ -60,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5259" />
+          <entry key="css" value="5267" />
           <entry key="html" value="11235" />
           <entry key="js" value="774" />
           <entry key="md" value="4366" />
@@ -71,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5259" />
+          <entry key="CSS" value="5267" />
           <entry key="HTML" value="11235" />
           <entry key="JavaScript" value="774" />
           <entry key="Markdown" value="4366" />
@@ -84,20 +83,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/contactcall/single.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/contactcall.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+            <state relative-caret-position="306">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/contactcall.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/contactcall/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+            <state relative-caret-position="323">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -320,12 +319,12 @@
       <workItem from="1534920664214" duration="21479000" />
       <workItem from="1535007794835" duration="13000" />
       <workItem from="1535007852719" duration="11720000" />
-      <workItem from="1535092030616" duration="2992000" />
+      <workItem from="1535092030616" duration="3212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187728000" />
+    <option name="totallyTimeSpent" value="187948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -696,15 +695,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/contactcall/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+        <state relative-caret-position="323">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/contactcall.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+        <state relative-caret-position="306">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
