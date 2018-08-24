@@ -125,6 +125,10 @@
         margin: 20% 0 50% 0;
     }
 
+    #section-events .row {
+        margin:0;
+    }
+
     #section-events h1 {
         font-size: 2em;
     }
