@@ -3,7 +3,7 @@
 <section class="section-blog">
     {{ with .Site.Params.blog.title }}<h3 id="last-news">{{ . }}</h3>{{ end }}
         {{ .Content }}
-        <div class="row" style="margin: 0;">
+        <div class="row">
             {{ range first 3 (where .Pages "Params.categories" "post")}}
             <figure class="snip1552">
                 <img src="{{ .Params.img }}" alt="sample91" />
