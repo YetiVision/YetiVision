@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/css/newsletter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/newsletter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/contact.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +32,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="109" />
-          <entry key="html" value="318" />
+          <entry key="css" value="110" />
+          <entry key="html" value="319" />
           <entry key="js" value="24" />
           <entry key="json" value="1" />
           <entry key="md" value="89" />
@@ -46,8 +46,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="109" />
-          <entry key="HTML" value="318" />
+          <entry key="CSS" value="110" />
+          <entry key="HTML" value="319" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="89" />
@@ -59,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6355" />
+          <entry key="css" value="6473" />
           <entry key="html" value="11611" />
           <entry key="js" value="774" />
           <entry key="md" value="4366" />
@@ -70,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6355" />
+          <entry key="CSS" value="6473" />
           <entry key="HTML" value="11611" />
           <entry key="JavaScript" value="774" />
           <entry key="Markdown" value="4366" />
@@ -84,19 +84,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/newsletter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="62" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/layouts/partials/contact.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/newsletter.css">
+        <entry file="file://$PROJECT_DIR$/static/css/contact.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="166">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -114,7 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon</find>
       <find>social</find>
       <find>socia</find>
       <find>header</find>
@@ -144,6 +139,7 @@
       <find>informations-sid</find>
       <find>#c</find>
       <find>client-name</find>
+      <find>h1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/content/events/portes-ouvertes-de-l-agence-yeti-vision.md" />
         <option value="$PROJECT_DIR$/content/events/decouverte-de-l-animation-les-airs-du-monde-en-association-avec-yeti-vision.md" />
         <option value="$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md" />
         <option value="$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md" />
@@ -204,6 +199,7 @@
         <option value="$PROJECT_DIR$/layouts/partials/clients.html" />
         <option value="$PROJECT_DIR$/static/css/clients.css" />
         <option value="$PROJECT_DIR$/static/css/newsletter.css" />
+        <option value="$PROJECT_DIR$/static/css/contact.css" />
       </list>
     </option>
   </component>
@@ -322,12 +318,12 @@
       <workItem from="1535007794835" duration="13000" />
       <workItem from="1535007852719" duration="11720000" />
       <workItem from="1535092030616" duration="14447000" />
-      <workItem from="1535353215633" duration="6091000" />
+      <workItem from="1535353215633" duration="7436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205274000" />
+    <option name="totallyTimeSpent" value="206619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -550,12 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/contact.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/contact.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -685,6 +675,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/newsletter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/newsletter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -692,10 +689,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/newsletter.css">
+    <entry file="file://$PROJECT_DIR$/layouts/partials/contact.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="166">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
         </state>
       </provider>
     </entry>
