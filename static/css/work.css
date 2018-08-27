@@ -370,6 +370,11 @@
     .game-tile {
         width: 80%;
         margin: auto;
+        font-size: 1.1em;
+    }
+
+    .game-icon img {
+        width: 30%;
     }
 }
 
