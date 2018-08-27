@@ -609,9 +609,6 @@ fieldset {
 @media screen and (max-width: 480px) {
   h3 {
     padding: 50px 0 50px; } }
-.alt-section {
-
-  padding-bottom: 100px; }
   .alt-section h3 {
     color: #000; }
 
