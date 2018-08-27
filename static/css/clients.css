@@ -177,6 +177,7 @@
         position: relative;
         margin-left: 0px;
         left: auto;
+        margin-top: 0;
     }
     .clients-belt .client-unit.active-client .client-face {
         margin-bottom: 0px;
@@ -209,6 +210,7 @@
 
     .clients-logos {
         display: block;
+        text-align: center;
     }
 
     .section-clients h3 {
@@ -222,8 +224,12 @@
 
     .clients-belt .client-unit .client-profil .client-name {
         font-size: 1em;
+        margin-bottom: 0;
     }
 
+    .clients-belt .client-unit .client-content {
+        font-size: 0.9em;
+    }
 
 
 }
