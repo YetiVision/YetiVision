@@ -357,6 +357,21 @@
     }
 }
 
+@media all and (max-width: 980px){
+    .game-block{
+        padding-left:0%;
+    }
+
+    .section-work h3 {
+        font-size: 2em;
+    }
+
+    .game-tile {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 /* SINGLE */
 
 .snip1581 {

@@ -3,15 +3,18 @@
 
     <div class="row game-block" >
         {{ range where .Pages "Params.categories" "work" }}
-        <a href="{{ .RelPermalink }}" alt="" class="game-tile game-animate">
-            <img src="{{ .Params.img }}" class="game-image">
-            <div class="game-animation-wrapper">
-                <div class="game-overlay">
-                    <span class="game-title">{{ .Title }}</span><br>
-                    <span class="game-icon"> <img src="{{ .Params.icon }}" alt="" /></span>
+
+            <a href="{{ .RelPermalink }}" alt="" class="game-tile game-animate">
+                <img src="{{ .Params.img }}" class="game-image">
+                <div class="game-animation-wrapper">
+                    <div class="game-overlay">
+                        <span class="game-title">{{ .Title }}</span><br>
+                        <span class="game-icon"> <img src="{{ .Params.icon }}" alt="" /></span>
+                    </div>
                 </div>
-            </div>
-        </a>
+            </a>
+
+
     {{ end }}
     </div>
 </section>
