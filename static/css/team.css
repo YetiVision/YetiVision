@@ -164,7 +164,7 @@
         display: block;
         background-position: center center;
         background-repeat: no-repeat;
-        margin: 0 auto 30px;
+        margin: 0 auto 0px;
     }
 
     .face-lockup [class^="icon-"] {
@@ -177,12 +177,13 @@
 
     .team_section h2 {
         font-size: 1.2em;
+        font-weight: bold;
     }
 
     .icon-profile {
         width: 16%;
         position: absolute;
-        top: 36%;
+        top: 42%;
         left: 55%;
     }
 
@@ -192,6 +193,7 @@
 
     .team_section .row {
         width: 100%;
+        margin: auto;
     }
 
     .team_description{
