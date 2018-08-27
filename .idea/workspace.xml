@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/partials/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/clients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/clients.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/newsletter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/newsletter.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +32,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="108" />
-          <entry key="html" value="317" />
+          <entry key="css" value="109" />
+          <entry key="html" value="318" />
           <entry key="js" value="24" />
           <entry key="json" value="1" />
           <entry key="md" value="89" />
@@ -47,8 +46,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="108" />
-          <entry key="HTML" value="317" />
+          <entry key="CSS" value="109" />
+          <entry key="HTML" value="318" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="89" />
@@ -60,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6259" />
+          <entry key="css" value="6355" />
           <entry key="html" value="11611" />
           <entry key="js" value="774" />
           <entry key="md" value="4366" />
@@ -71,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6259" />
+          <entry key="CSS" value="6355" />
           <entry key="HTML" value="11611" />
           <entry key="JavaScript" value="774" />
           <entry key="Markdown" value="4366" />
@@ -85,19 +84,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/clients.html">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/newsletter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-347">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/clients.css">
+        <entry file="file://$PROJECT_DIR$/static/css/newsletter.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="210" column="22" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
+            <state relative-caret-position="520">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -189,7 +188,6 @@
         <option value="$PROJECT_DIR$/layouts/work/single.html" />
         <option value="$PROJECT_DIR$/layouts/contactcall/single.html" />
         <option value="$PROJECT_DIR$/static/css/events.css" />
-        <option value="$PROJECT_DIR$/static/css/newsletter.css" />
         <option value="$PROJECT_DIR$/static/css/all.css" />
         <option value="$PROJECT_DIR$/static/js/menu.js" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
@@ -205,6 +203,7 @@
         <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/layouts/partials/clients.html" />
         <option value="$PROJECT_DIR$/static/css/clients.css" />
+        <option value="$PROJECT_DIR$/static/css/newsletter.css" />
       </list>
     </option>
   </component>
@@ -323,12 +322,12 @@
       <workItem from="1535007794835" duration="13000" />
       <workItem from="1535007852719" duration="11720000" />
       <workItem from="1535092030616" duration="14447000" />
-      <workItem from="1535353215633" duration="5657000" />
+      <workItem from="1535353215633" duration="6091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204840000" />
+    <option name="totallyTimeSpent" value="205274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -557,13 +556,6 @@
     <entry file="file://$PROJECT_DIR$/static/css/contact.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/newsletter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -575,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/newsletter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -686,6 +671,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/clients.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="210" column="22" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/clients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-347">
@@ -693,10 +685,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/clients.css">
+    <entry file="file://$PROJECT_DIR$/layouts/partials/newsletter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="210" column="22" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
+        <state relative-caret-position="340">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/newsletter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
         </state>
       </provider>
     </entry>

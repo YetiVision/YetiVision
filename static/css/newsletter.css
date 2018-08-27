@@ -33,4 +33,21 @@
     #mc_embed_signup #mce-EMAIL{
         width: 100%;
     }
+
+    #section-newsletter h2 {
+        font-size: 1.1em;
+    }
+
+    .mc-field-group label, .indicates-required{
+        font-size: 0.9em;
+    }
+
+    form label {
+        margin-bottom: 5px;
+    }
+
+    #mc-embedded-subscribe{
+        width: 60%;
+        font-size: 1em;
+    }
 }
