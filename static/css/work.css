@@ -360,10 +360,11 @@
 @media all and (max-width: 980px){
     .game-block{
         padding-left:0%;
+        width: 100%;
     }
 
     .section-work h3 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .game-tile {

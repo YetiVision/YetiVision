@@ -96,7 +96,11 @@
 
 @media all and (max-width: 980px){
     .section-blog h3 {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    .section-blog .row {
+        width: 100%;
     }
 
     .snip1552 {
