@@ -1,3 +1,7 @@
+.team_section .row {
+    margin: 0;
+}
+
 .face-lockup {
     max-width: 780px;
     display: -webkit-box;
@@ -124,8 +128,8 @@
 .icon-profile {
     width: 16%;
     position: absolute;
-    top: 41%;
-    left: 66%;
+    top: 40%;
+    left: 62%;
 }
 
 .jimmy-souleve-left, .jimmy-souleve-right {

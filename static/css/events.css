@@ -1,11 +1,17 @@
 #section-events {
-    margin: 7% 0 10% 0;
+    margin: 0% 0 10% 0;
     clear: both;
+    padding: 5% 0 0 0;
+}
+
+#section-events .row {
+    margin: 0;
 }
 
 #section-events h1 {
     font-size: 3em;
     text-align: center;
+    margin-top: 0;
 }
 
 .snip1554 {
@@ -123,6 +129,7 @@
 @media all and (max-width: 980px){
     #section-events{
         margin: 0% 0 50% 0;
+        padding: 30% 0 0 0;
     }
 
     #section-events .row {
@@ -156,7 +163,12 @@
 /* SINGLE PAGE */
 
 #section-single-event {
-    margin: 5% 0 0 0;
+    margin: 0% 0 0 0;
+    padding: 5% 0 0 0;
+}
+
+#section-single-event .row {
+    margin: 0;
 }
 
 #section-single-event h1 {
@@ -192,6 +204,7 @@
 
     #section-single-event {
         margin: 0% 0 50% 0;
+        padding: 30% 0 0 0;
     }
 
     #section-single-event h1 {

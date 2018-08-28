@@ -46,6 +46,7 @@
 .social-icon-menu {
     display: flex;
     position: absolute;
+    top: 6%;
     left: 83%;
 }
 
@@ -68,7 +69,7 @@
         position: absolute;
         top: 105%;
         left: -270px;
-        background-color: rgba(196, 229, 235, 0.7);
+        background-color: rgba(196, 229, 235, 0.8);
         padding: 20px 0px 10px 35px;
         width: 350px;
     }

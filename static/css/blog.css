@@ -4,6 +4,10 @@
     margin-bottom: 3%;
 }
 
+.section-blog .row {
+    margin: 0;
+}
+
 .snip1552 {
     position: relative;
     display: inline-block;
@@ -114,6 +118,7 @@
 
     .snip1552 img {
         width: 100%;
+        margin-top: 1%;
         min-height: 200px;
         max-height: 200px;
     }
@@ -133,7 +138,8 @@
 /* LIST PAGE */
 
 #section-list-post {
-    margin: 7% 0 15% 0;
+    margin: 0% 0 15% 0;
+    padding: 5% 0 0 0;
 }
 
 .btn-readmore a {
@@ -203,6 +209,7 @@
 @media all and (max-width: 980px){
     #section-list-post {
         margin: 0% 0 50% 0;
+        padding: 30% 0 0 0;
     }
 
     .title-list-post {
@@ -238,7 +245,8 @@
 /* SINGLE PAGE */
 
 #section-single-post {
-    margin: 7% 0 0 0;
+    margin: 0 0 0 0;
+    padding: 5% 0 0 0;
 }
 
 #section-single-post .div-content-title-single-post {
@@ -301,6 +309,7 @@
 @media all and (max-width: 980px){
     #section-single-post {
         margin: 0% 0 50% 0;
+        padding: 30% 0 0 0;
     }
 
     #section-single-post h1 {

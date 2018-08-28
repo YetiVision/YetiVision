@@ -9,6 +9,10 @@
     margin: auto;
 }
 
+.section-work .row {
+    margin: 0;
+}
+
 .game-tile {
     border: 1px solid #fff;
     display: block;
@@ -428,7 +432,8 @@
 }
 
 .single-service {
-    margin: 6% 0 10% 0;
+    margin: 0% 0 10% 0;
+    padding: 5% 0 0 0;
 }
 
 .single-service h1 {
@@ -460,6 +465,7 @@
 @media all and (max-width: 980px) {
     .single-service {
         margin: 0% 0 50% 0;
+        padding: 30% 0 0 0;
     }
 
     .single-service .btn-previous img{

@@ -4,6 +4,10 @@
     padding-bottom: 2%;
 }
 
+#section-newsletter .row {
+    margin: 0;
+}
+
 #section-newsletter h2 {
     font-size: 1.7em;
 }
