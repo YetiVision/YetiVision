@@ -33,6 +33,74 @@
     left: 0;
 }
 
+#btn-outline:hover .shape {
+    stroke-width: 5px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 550;
+}
+
+.no-svg #btn-outline {
+    color: black;
+    font-size: 1.7em;
+    line-height: 40px;
+    letter-spacing: 4px;
+    text-indent: 4px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+#btn-outline .text-call {
+    color: black;
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    margin-right: 10px;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+#btn-outline .shape {
+    stroke-dasharray: 145, 310;
+    stroke-dashoffset: -304;
+    stroke-width: 10px;
+    fill: transparent;
+    stroke: #333;
+    -webkit-transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    -ms-transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+#btn-outline a { text-decoration: none;}
+
+#btn-outline {
+    margin: 30px auto ;
+    width: 210px;
+    height: 60px;
+    display: block;
+}
+
+#btn-outline a {
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 440px;
+    max-width: 80%;
+    color: #333;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+#wrapper {
+    width: 100%;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#btn-outline:hover{
+    background-color: lightskyblue;
+    transition: background-color 2s ease;
+}
+
 @media all and (max-width: 980px) {
     .top-border {
         width: 18%;
@@ -66,73 +134,5 @@
         top: -11px;
     }
 
-    #btn-outline:hover .shape {
-        stroke-width: 5px;
-        stroke-dashoffset: 0;
-        stroke-dasharray: 550;
-    }
 
-    .no-svg #btn-outline {
-        color: black;
-        font-size: 1.7em;
-        line-height: 40px;
-        letter-spacing: 4px;
-        text-indent: 4px;
-        border: 2px solid black;
-        margin-bottom: 50px;
-    }
-
-    #btn-outline .text-call {
-        color: black;
-        font-size: 0.9em;
-        letter-spacing: 4px;
-        margin-right: 10px;
-        margin-top: -45px;
-        margin-left: 10px;
-    }
-
-    #btn-outline .shape {
-        stroke-dasharray: 145, 310;
-        stroke-dashoffset: -304;
-        stroke-width: 10px;
-        fill: transparent;
-        stroke: #333;
-        -webkit-transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-        -ms-transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-        transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-    }
-
-    #btn-outline a {
-        text-decoration: none;
-    }
-
-    #btn-outline {
-        margin: 30px auto;
-        width: 210px;
-        height: 57px;
-        display: block;
-    }
-
-    #btn-outline a {
-        padding: 20px;
-        margin-bottom: 40px;
-        width: 440px;
-        max-width: 80%;
-        color: #333;
-        font-size: 22px;
-        letter-spacing: 3px;
-    }
-
-    #wrapper {
-        width: 100%;
-        top: 30%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    #btn-outline:hover {
-        background-color: lightskyblue;
-        transition: background-color 2s ease;
-    }
 }

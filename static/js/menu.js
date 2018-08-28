@@ -14,4 +14,3 @@ $(function() { var logo = $(".lrg-logo"); $(window).scroll(function() {
     }
 });
 });
-

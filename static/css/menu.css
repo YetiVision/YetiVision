@@ -1,21 +1,42 @@
+.section-header {
+    min-height: 60px;
+    background-color: #c4e5eb;
+    z-index: 10;
+}
+
+.section-header .navbar {
+    position: absolute;
+}
+
+.section-header .navbar li a {
+    color: #000;
+}
+
+.section-header .navbar li a:hover {
+    color: #615da1;
+}
+
+.section-header .navbar-toggler-icon {
+    background-image: url("/img/icones/menu_black.png");
+    width: 50px;
+    height: 50px;
+}
+
+
 .lrg-logo {
     position:absolute;
     width: 300px;
-    left:42%;
-    top: 20%;
+    left:45%;
+    top: 10%;
     z-index:1;
 }
 
 .sml-logo {
     position:absolute;
     width: 150px;
-    left:45%;
-    top: 10%;
+    left:47%;
+    top: 0%;
     z-index:1;
-}
-
-.social-links{
-    width: 250px;
 }
 
 #header-logo{
@@ -24,6 +45,8 @@
 
 .social-icon-menu {
     display: flex;
+    position: absolute;
+    left: 83%;
 }
 
 .social-icon-menu #icon-fb, .social-icon-menu #icon-twitter, .social-icon-menu #icon-linkedin, .social-icon-menu #icon-instagram, .social-icon-menu #icon-contact, .social-icon-menu #icon-news{
@@ -32,31 +55,55 @@
 }
 
 @media all and (max-width: 980px){
-    #header-logo{
-        width: 50%;
+    .section-header {
+        min-height: 40px;
     }
 
-    .navbar-light .navbar-toggler {
+    .section-header .navbar {
+        top:70px;
+        left: 76%;
+    }
+
+    .section-header .navbar-collapse {
+        position: absolute;
+        top: 105%;
+        left: -270px;
+        background-color: rgba(196, 229, 235, 0.7);
+        padding: 20px 0px 10px 35px;
+        width: 350px;
+    }
+
+    .arrow-right-mobile {
+        width: 15px;
+        position: absolute;
+        left: -15px;
+        top: 14px;
+        height: 11px;
+        background-image: url("/img/glyph-iconset-master/svg/si-glyph-arrow-right.svg");
+    }
+
+
+    .section-header .navbar-toggler {
         position: fixed;
         left: 82%;
-        top: 8%;
+        top: 9%;
         min-height: 50px;
-        z-index: 5;
+        z-index: 12;
     }
 
     .lrg-logo {
         position: absolute;
-        width: 300px;
-        left: 30%;
-        top: 40%;
+        width: 125px;
+        left: 35%;
+        top: 42%;
         z-index: 1;
     }
 
     .sml-logo {
         position:absolute;
-        width: 300px;
-        left: 30%;
-        top: 40%;
+        width: 125px;
+        left: 35%;
+        top: 42%;
         z-index:1;
     }
 
@@ -65,13 +112,22 @@
         height: 30px;
     }
 
-    .navbar .col-lg-3{
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .social-icon-menu {
         justify-content: space-between;
+    }
+
+    .social-icon-menu .menu-social-icon-mobile-left {
+        position: absolute;
+        width: 100px;
+        top: 5px;
+        left: -305px;
+    }
+
+    .social-icon-menu .menu-social-icon-mobile-right {
+        position: absolute;
+        width: 100px;
+        left: -40px;
+        top: 5px;
     }
 
 }

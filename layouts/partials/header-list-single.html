@@ -1,31 +1,33 @@
 {{ "<!-- Header section -->" | safeHTML }}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="section-header" style="position: fixed; display: flex; width:100%;">
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                {{ with .Site.Params.header.title }}<a class="nav-link" href="/#header">{{ . }} <span class="sr-only">(current)</span></a>{{ end }}
-            </li>
-            <li class="nav-item dropdown">
-                {{ with .Site.Params.events.title }}<a class="nav-link" href="/events">{{ . }}</a>{{ end }}
-            </li>
-            <li class="nav-item dropdown">
-                {{ with .Site.Data.work.title }}<a class="nav-link" href="/#work">{{ . }}</a>{{ end }}
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link" href="/blog">Blog</a>
-            </li>
-            <li class="nav-item dropdown">
-                {{ with .Site.Params.form.title }}<a class="nav-link" href="/contactcall">{{ . }}</a>{{ end }}
-            </li>
-        </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    {{ with .Site.Params.header.title }}<a class="nav-link" href="/"><div class="arrow-right-mobile"></div>{{ . }}</a>{{ end }}
+                </li>
+                <li class="nav-item dropdown">
+                    {{ with .Site.Params.events.title }}<a class="nav-link" href="/events"><div class="arrow-right-mobile"></div>{{ . }}</a>{{ end }}
+                </li>
+                <li class="nav-item dropdown">
+                    {{ with .Site.Data.work.title }}<a class="nav-link" href="#work"><div class="arrow-right-mobile"></div>{{ . }}</a>{{ end }}
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="/blog"><div class="arrow-right-mobile"></div>Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    {{ with .Site.Params.form.title }}<a class="nav-link" href="/contactcall"><div class="arrow-right-mobile"></div>{{ . }}</a>{{ end }}
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="col-lg-3 social-icon-menu">
+    <div class="social-icon-menu">
         <div class="menu-social-icon-mobile-left">
             <a href="#"><img src="/img/icones/facebook_black.png" id="icon-fb" /></a>
             <a href="#"><img src="/img/icones/twitter_black.png" id="icon-twitter" /></a>
@@ -34,11 +36,11 @@
         <div class="menu-social-icon-mobile-right">
             <a href="#"><img src="/img/icones/instagram_black.png" id="icon-instagram" /></a>
             <a href="/contactcall"><img src="/img/icones/contact_black.png" id="icon-contact" /></a>
-            <a href="/#section-newsletter"><img src="/img/icones/news_black.png" id="icon-news" /></a>
+            <a href="#section-newsletter"><img src="/img/icones/news_black.png" id="icon-news" /></a>
         </div>
     </div>
-        <div class="sml-logo">
-            <img src="/img/logo.png" alt="Logo" id="header-logo">
-        </div>
+
+    <div class="lrg-logo">
+        <img src="/img/logo.png" alt="Logo" id="header-logo">
     </div>
-</nav>
+</div>
