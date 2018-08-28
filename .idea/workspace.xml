@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/partials/header-list-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/header-list-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/contactcall.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/contactcall.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/events.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/events.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/newsletter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/newsletter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +39,7 @@
           <entry key="json" value="1" />
           <entry key="md" value="89" />
           <entry key="scss" value="7" />
-          <entry key="toml" value="53" />
+          <entry key="toml" value="54" />
           <entry key="url" value="1" />
           <entry key="yaml" value="1" />
           <entry key="yml" value="1" />
@@ -62,7 +54,7 @@
           <entry key="Markdown" value="89" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
-          <entry key="TOML file" value="53" />
+          <entry key="TOML file" value="54" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -73,7 +65,7 @@
           <entry key="js" value="781" />
           <entry key="md" value="4366" />
           <entry key="scss" value="22" />
-          <entry key="toml" value="2504" />
+          <entry key="toml" value="2532" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
@@ -84,7 +76,7 @@
           <entry key="JavaScript" value="781" />
           <entry key="Markdown" value="4366" />
           <entry key="SCSS" value="22" />
-          <entry key="TOML file" value="2504" />
+          <entry key="TOML file" value="2532" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -93,10 +85,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/menu.css">
+        <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+            <state relative-caret-position="306">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -172,7 +164,6 @@
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/static/js/btn-scroll-top.js" />
         <option value="$PROJECT_DIR$/static/js/social-icon.js" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/layouts/partials/pagination.html" />
         <option value="$PROJECT_DIR$/layouts/partials/newsletter.html" />
         <option value="$PROJECT_DIR$/static/css/sliders.css" />
@@ -204,6 +195,7 @@
         <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/static/css/contactcall.css" />
         <option value="$PROJECT_DIR$/static/css/menu.css" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -232,17 +224,6 @@
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,12 +294,12 @@
       <workItem from="1535092030616" duration="14447000" />
       <workItem from="1535353215633" duration="20947000" />
       <workItem from="1535399714816" duration="144000" />
-      <workItem from="1535440027467" duration="11133000" />
+      <workItem from="1535440027467" duration="12530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231407000" />
+    <option name="totallyTimeSpent" value="232804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -459,13 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -695,6 +669,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>
