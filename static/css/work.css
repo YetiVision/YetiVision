@@ -361,7 +361,7 @@
     }
 }
 
-@media all and (max-width: 980px){
+@media all and (max-device-width: 480px){
     .game-block{
         padding-left:0%;
         width: 100%;

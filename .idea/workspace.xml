@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/work.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="167" />
+          <entry key="css" value="168" />
           <entry key="html" value="348" />
           <entry key="js" value="25" />
           <entry key="json" value="1" />
@@ -47,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="167" />
+          <entry key="CSS" value="168" />
           <entry key="HTML" value="348" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="25" />
@@ -60,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8336" />
+          <entry key="css" value="8417" />
           <entry key="html" value="12254" />
           <entry key="js" value="781" />
           <entry key="md" value="4366" />
@@ -71,7 +72,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8336" />
+          <entry key="CSS" value="8417" />
           <entry key="HTML" value="12254" />
           <entry key="JavaScript" value="781" />
           <entry key="Markdown" value="4366" />
@@ -105,8 +106,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/work.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="392" column="34" selection-start-line="392" selection-start-column="34" selection-end-line="392" selection-end-column="34" />
+            <state relative-caret-position="418">
+              <caret line="390" column="4" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -207,12 +217,12 @@
         <option value="$PROJECT_DIR$/layouts/partials/header-list-single.html" />
         <option value="$PROJECT_DIR$/static/css/newsletter.css" />
         <option value="$PROJECT_DIR$/static/css/events.css" />
-        <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/static/css/contactcall.css" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/static/css/menu.css" />
         <option value="$PROJECT_DIR$/static/css/team.css" />
+        <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/static/css/work.css" />
       </list>
     </option>
@@ -335,12 +345,12 @@
       <workItem from="1535353215633" duration="20947000" />
       <workItem from="1535399714816" duration="144000" />
       <workItem from="1535440027467" duration="13281000" />
-      <workItem from="1535523823322" duration="5246000" />
+      <workItem from="1535523823322" duration="5968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238801000" />
+    <option name="totallyTimeSpent" value="239523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -672,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="311" column="19" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -707,10 +710,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/work.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="392" column="34" selection-start-line="392" selection-start-column="34" selection-end-line="392" selection-end-column="34" />
+        <state relative-caret-position="418">
+          <caret line="390" column="4" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
         </state>
       </provider>
     </entry>
