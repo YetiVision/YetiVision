@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/clients.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="168" />
+          <entry key="css" value="169" />
           <entry key="html" value="348" />
           <entry key="js" value="25" />
           <entry key="json" value="1" />
@@ -48,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="168" />
+          <entry key="CSS" value="169" />
           <entry key="HTML" value="348" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="25" />
@@ -61,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8417" />
+          <entry key="css" value="8442" />
           <entry key="html" value="12254" />
           <entry key="js" value="781" />
           <entry key="md" value="4366" />
@@ -72,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8417" />
+          <entry key="CSS" value="8442" />
           <entry key="HTML" value="12254" />
           <entry key="JavaScript" value="781" />
           <entry key="Markdown" value="4366" />
@@ -103,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/work.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="520">
               <caret line="390" column="4" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
             </state>
           </provider>
@@ -115,8 +114,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+            <state relative-caret-position="333">
+              <caret line="137" selection-start-line="137" selection-end-line="137" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/clients.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="275" column="21" selection-start-line="275" selection-start-column="21" selection-end-line="275" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -206,7 +214,6 @@
         <option value="$PROJECT_DIR$/layouts/partials/work.html" />
         <option value="$PROJECT_DIR$/layouts/partials/blog.html" />
         <option value="$PROJECT_DIR$/layouts/partials/clients.html" />
-        <option value="$PROJECT_DIR$/static/css/clients.css" />
         <option value="$PROJECT_DIR$/static/css/all.css" />
         <option value="$PROJECT_DIR$/static/css/footer.css" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
@@ -224,6 +231,7 @@
         <option value="$PROJECT_DIR$/static/css/team.css" />
         <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/static/css/work.css" />
+        <option value="$PROJECT_DIR$/static/css/clients.css" />
       </list>
     </option>
   </component>
@@ -345,12 +353,12 @@
       <workItem from="1535353215633" duration="20947000" />
       <workItem from="1535399714816" duration="144000" />
       <workItem from="1535440027467" duration="13281000" />
-      <workItem from="1535523823322" duration="5968000" />
+      <workItem from="1535523823322" duration="6438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239523000" />
+    <option name="totallyTimeSpent" value="239993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -623,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/clients.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="212" column="26" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/contact.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -710,17 +711,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/static/css/work.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+        <state relative-caret-position="520">
+          <caret line="390" column="4" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/work.css">
+    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="390" column="4" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
+        <state relative-caret-position="333">
+          <caret line="137" selection-start-line="137" selection-end-line="137" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/clients.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="275" column="21" selection-start-line="275" selection-start-column="21" selection-end-line="275" selection-end-column="21" />
         </state>
       </provider>
     </entry>

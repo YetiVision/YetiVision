@@ -154,7 +154,7 @@
     border-color: #6c6f71;
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-device-width: 480px) {
     .clients-logos {
         -webkit-box-lines: multiple;
         -moz-box-lines: multiple;
@@ -230,6 +230,88 @@
     .clients-belt .client-unit .client-content {
         font-size: 0.9em;
     }
+}
 
+@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+    .clients-logos {
+        -webkit-box-lines: multiple;
+        -moz-box-lines: multiple;
+        box-lines: multiple;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
 
+    .clients-mobile-nav {
+        display: none;
+    }
+
+    .clients-belt {
+        overflow-x: hidden;
+    }
+    .clients-belt .client-unit.active-client {
+        display: block;
+        position: relative;
+        margin-left: 0px;
+        left: auto;
+        margin-top: 0;
+    }
+    .clients-belt .client-unit.active-client .client-face {
+        margin-bottom: 0px;
+
+    }
+    .clients-belt .client-unit.active-client .client-content {
+        padding: 0px 30px;
+        max-width: 400px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .clients-belt .client-unit.active-client .client-quote-mark {
+        left: 6px;
+    }
+
+    .clients-belt .client-unit .client-face .client-title {
+        font-style: normal;
+        font-size: 14px;
+        color: #999;
+    }
+
+    .client-controls {
+        display: block;
+    }
+
+    .client-controls .client-control-next {
+        position: absolute;
+        top: 40%;
+        right: 10px;
+    }
+    .client-controls .client-control-prev {
+        position: absolute;
+        top: 40%;
+        left: 10px;
+    }
+
+    .clients-logos {
+        display: block;
+        text-align: center;
+    }
+
+    .section-clients h3 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .client-quote-mark {
+        display: none;
+    }
+
+    .clients-belt .client-unit .client-profil .client-name {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+
+    .clients-belt .client-unit .client-content {
+        font-size: 0.9em;
+    }
 }
