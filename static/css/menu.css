@@ -55,7 +55,7 @@
     height: 50px;
 }
 
-@media all and (max-width: 980px){
+@media all and (max-device-width: 480px){
     .section-header {
         min-height: 40px;
     }
@@ -131,4 +131,73 @@
         top: 5px;
     }
 
+}
+
+@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+    .section-header .navbar {
+        top:70px;
+        left: 76%;
+    }
+
+    .section-header .navbar-toggler-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .section-header .navbar-collapse {
+        position: absolute;
+        top: 35px;
+        left: -275px;
+        background-color: rgba(196, 229, 235, 0.8);
+        padding: 20px 0px 10px 35px;
+        width: 400px;
+    }
+
+    .arrow-right-mobile {
+        width: 15px;
+        position: absolute;
+        left: -15px;
+        top: 14px;
+        height: 11px;
+        background-image: url("/img/glyph-iconset-master/svg/si-glyph-arrow-right.svg");
+    }
+
+
+    .section-header .navbar-toggler {
+        position: fixed;
+        left: 82%;
+        top: 9%;
+        min-height: 50px;
+        z-index: 12;
+    }
+
+    .social-icon-menu .menu-social-icon-mobile-left {
+        position: absolute;
+        width: 165px;
+        top: 3px;
+        left: -625px;
+    }
+
+    .social-icon-menu .menu-social-icon-mobile-right {
+        position: absolute;
+        width: 165px;
+        left: -40px;
+        top: 3px;
+    }
+
+    .lrg-logo {
+        position: absolute;
+        width: 150px;
+        left: 40%;
+        top: 55%;
+        z-index: 1;
+    }
+
+    .sml-logo {
+        position:absolute;
+        width: 150px;
+        left: 40%;
+        top: 55%;
+        z-index:1;
+    }
 }
