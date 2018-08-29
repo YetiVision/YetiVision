@@ -182,3 +182,70 @@ form .contact-info-group span{
         padding-top: 40%;
     }
 }
+
+@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+    form .contact-info-group label {
+        width: 100%;
+    }
+
+    form .contact-info-group label:nth-child(1) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(2) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(3) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(4) {
+        padding: 0;
+    }
+
+    form [type="submit"] {
+        width: 100%;
+    }
+
+    .contactcall{
+        margin: 0% 0 35% 0;
+        padding: 30% 0 0 0;
+    }
+
+    .contactcall .intro-text {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contactcall #form-title {
+        font-size: 2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact-information {
+        margin-left: 5%;
+    }
+
+    .contact-information h2 {
+        font-size: 1.3em;
+        color: #c4e5eb;
+        font-weight: 300;
+    }
+
+    /*.contact-information-yeti {*/
+    /*position: absolute;*/
+    /*left: 45%;*/
+    /*top: 71%;*/
+    /*}*/
+
+    .map-img{
+        display: none;
+    }
+
+    .img-yeti {
+        width: 100%;
+        padding-top: 0%;
+    }
+}
