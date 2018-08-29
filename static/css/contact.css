@@ -102,7 +102,7 @@
     text-decoration: none;
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-device-width: 480px) {
     .top-border {
         width: 18%;
     }
@@ -134,6 +134,11 @@
         font-size: 1em;
         top: -11px;
     }
+}
 
-
+@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+    .section-call h1 {
+        font-size: 1.2em;
+        top: -11px;
+    }
 }
