@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/events/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/events/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/events.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/events.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8735" />
+          <entry key="css" value="8750" />
           <entry key="html" value="12259" />
           <entry key="js" value="781" />
           <entry key="md" value="4366" />
@@ -73,7 +72,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8735" />
+          <entry key="CSS" value="8750" />
           <entry key="HTML" value="12259" />
           <entry key="JavaScript" value="781" />
           <entry key="Markdown" value="4366" />
@@ -113,20 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" selection-end-column="71" />
+            <state relative-caret-position="112">
+              <caret line="417" column="23" selection-start-line="417" selection-start-column="23" selection-end-line="417" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/events.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+            <state relative-caret-position="605">
+              <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -264,12 +263,12 @@
         <option value="$PROJECT_DIR$/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/static/css/menu.css" />
         <option value="$PROJECT_DIR$/static/css/team.css" />
-        <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/static/css/clients.css" />
         <option value="$PROJECT_DIR$/static/css/contact.css" />
         <option value="$PROJECT_DIR$/static/css/work.css" />
         <option value="$PROJECT_DIR$/layouts/events/single.html" />
         <option value="$PROJECT_DIR$/static/css/events.css" />
+        <option value="$PROJECT_DIR$/static/css/blog.css" />
       </list>
     </option>
   </component>
@@ -403,18 +402,18 @@
       <workItem from="1535353215633" duration="20947000" />
       <workItem from="1535399714816" duration="144000" />
       <workItem from="1535440027467" duration="13281000" />
-      <workItem from="1535523823322" duration="8399000" />
+      <workItem from="1535523823322" duration="8779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241954000" />
+    <option name="totallyTimeSpent" value="242334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,7 +426,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.2733189" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.2733189" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32104123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -754,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/events/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -777,8 +769,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/events.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+        <state relative-caret-position="605">
+          <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="417" column="23" selection-start-line="417" selection-start-column="23" selection-end-line="417" selection-end-column="23" />
         </state>
       </provider>
     </entry>
