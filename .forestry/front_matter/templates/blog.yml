@@ -15,3 +15,5 @@ fields:
 - type: tag_list
   name: categories
   description: post
+pages:
+- content/blog/la-strategie-marketing-en-ligne.md
