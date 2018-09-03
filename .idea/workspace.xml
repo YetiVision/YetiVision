@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/blog/online-marketing.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/video/AnimationJimmyYeti.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/slider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/sliders.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sliders.css" afterDir="false" />
-    </list>
+    <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,16 +335,15 @@
       <workItem from="1535440027467" duration="13281000" />
       <workItem from="1535523823322" duration="10080000" />
       <workItem from="1535612879773" duration="8140000" />
-      <workItem from="1535956278929" duration="5636000" />
+      <workItem from="1535956278929" duration="5993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257411000" />
+    <option name="totallyTimeSpent" value="257768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
