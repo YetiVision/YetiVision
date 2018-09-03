@@ -1,6 +1,6 @@
 {{ "<!-- Slider section -->" | safeHTML }}
 
-<section class="section-slide" style="min-width: 370px; height: 300px;">
+<section class="section-slide">
         <!--<div class="slider-wrapper">-->
             <!--<div class="slider">-->
 
@@ -13,4 +13,11 @@
 
             <!--</div>-->
         <!--</div>-->
+    <div class="bg-on-mobile">
+        <img src="{{ .Site.BaseURL }}video/logo-purple.png">
+    </div>
+        <video id="video-slider" src="{{ .Site.BaseURL }}video/AnimationJimmyYeti.mp4" autoplay loop poster="{{ .Site.BaseURL }}video/logo-purple.png">
+            Il est temps de mettre à jour votre navigateur !
+        </video>
+
 </section>

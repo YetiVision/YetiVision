@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/img/blog/online-marketing.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/video/AnimationJimmyYeti.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/sliders.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sliders.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,20 +28,20 @@
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="173" />
-          <entry key="html" value="354" />
+          <entry key="css" value="177" />
+          <entry key="html" value="357" />
           <entry key="js" value="25" />
           <entry key="json" value="1" />
-          <entry key="md" value="93" />
+          <entry key="md" value="95" />
           <entry key="scss" value="7" />
           <entry key="toml" value="54" />
           <entry key="url" value="1" />
@@ -49,11 +51,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="173" />
-          <entry key="HTML" value="354" />
+          <entry key="CSS" value="177" />
+          <entry key="HTML" value="357" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="25" />
-          <entry key="Markdown" value="93" />
+          <entry key="Markdown" value="95" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
           <entry key="TOML file" value="54" />
@@ -62,8 +64,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8762" />
-          <entry key="html" value="12260" />
+          <entry key="css" value="9203" />
+          <entry key="html" value="12434" />
           <entry key="js" value="781" />
           <entry key="md" value="9316" />
           <entry key="scss" value="22" />
@@ -73,8 +75,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8762" />
-          <entry key="HTML" value="12260" />
+          <entry key="CSS" value="9203" />
+          <entry key="HTML" value="12434" />
           <entry key="JavaScript" value="781" />
           <entry key="Markdown" value="9316" />
           <entry key="SCSS" value="22" />
@@ -87,10 +89,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/sliders.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/team.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="207" selection-start-line="207" selection-end-line="207" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -166,13 +186,11 @@
         <option value="$PROJECT_DIR$/static/js/social-icon.js" />
         <option value="$PROJECT_DIR$/layouts/partials/pagination.html" />
         <option value="$PROJECT_DIR$/layouts/partials/newsletter.html" />
-        <option value="$PROJECT_DIR$/static/css/sliders.css" />
         <option value="$PROJECT_DIR$/layouts/events/list.html" />
         <option value="$PROJECT_DIR$/layouts/blog/list.html" />
         <option value="$PROJECT_DIR$/layouts/blog/single.html" />
         <option value="$PROJECT_DIR$/layouts/work/single.html" />
         <option value="$PROJECT_DIR$/layouts/contactcall/single.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/slider.html" />
         <option value="$PROJECT_DIR$/layouts/partials/work.html" />
         <option value="$PROJECT_DIR$/layouts/partials/blog.html" />
         <option value="$PROJECT_DIR$/layouts/partials/clients.html" />
@@ -198,6 +216,8 @@
         <option value="$PROJECT_DIR$/content/blog/le-responsive-design.md" />
         <option value="$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md" />
         <option value="$PROJECT_DIR$/static/css/blog.css" />
+        <option value="$PROJECT_DIR$/static/css/sliders.css" />
+        <option value="$PROJECT_DIR$/layouts/partials/slider.html" />
       </list>
     </option>
   </component>
@@ -207,7 +227,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="245" />
     <option name="y" value="474" />
     <option name="width" value="1280" />
@@ -225,17 +245,6 @@
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
@@ -331,18 +340,19 @@
       <workItem from="1535399714816" duration="144000" />
       <workItem from="1535440027467" duration="13281000" />
       <workItem from="1535523823322" duration="10080000" />
-      <workItem from="1535612879773" duration="6886000" />
+      <workItem from="1535612879773" duration="8140000" />
+      <workItem from="1535956278929" duration="5636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250521000" />
+    <option name="totallyTimeSpent" value="257411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +365,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.2733189" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.18980478" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32104123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -391,10 +401,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/hugo-artists-theme/layouts/partials/icons/icon-back.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/icons/icon-back.html" />
     <entry file="file://$PROJECT_DIR$/layouts/icons/icon-next.html" />
     <entry file="file://$PROJECT_DIR$/layouts/events/baseof.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -526,27 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/sliders.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/contact.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -620,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/contactcall.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -638,20 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="542" column="23" selection-start-line="542" selection-start-column="23" selection-end-line="542" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/team.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="207" selection-start-line="207" selection-end-line="207" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="135" selection-start-line="135" selection-end-line="135" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -705,17 +669,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
+    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="1938">
+          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/archetypes/blog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/le-marche-de-levenementiel-reprend-des-couleurs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/team.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="207" selection-start-line="207" selection-end-line="207" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="135" selection-start-line="135" selection-end-line="135" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sliders.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
         </state>
       </provider>
     </entry>

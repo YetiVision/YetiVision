@@ -154,3 +154,46 @@
 .slick-dots li button:hover {
     background-color: rgba(196, 229, 235, 0.5);
 }
+
+
+
+
+.section-slide {
+
+}
+
+#video-slider {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.bg-on-mobile {
+    display: none;
+}
+
+@media all and (max-device-width: 480px){
+    #video-slider {
+        display: none;
+    }
+
+    .bg-on-mobile{
+        display: block;
+        padding-top: 30%;
+    }
+
+    .bg-on-mobile img {
+        max-width: 100%;
+    }
+}
+
+@media all and (min-device-width: 480px) and (max-device-width: 1024px){
+    #video-slider {
+        display: none;
+    }
+}
