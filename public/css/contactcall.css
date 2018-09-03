@@ -1,0 +1,251 @@
+.contactcall{
+    margin: 0% 0 10% 0;
+    padding: 5% 0 0 0;
+}
+
+form {
+    max-width: 100%;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+form input, form textarea {
+    border: 2px solid #000;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px; }
+
+form .btn-submit-contact{
+    border: 2px solid #000;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #e1c285; }
+
+form textarea {
+    height: 10em;
+    resize: none; }
+form .submit-wrap {
+    text-align: left; }
+form [type="submit"] {
+    background: #c4e5eb;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 33%; }
+form [type="submit"]:hover {
+    background: rgba(196, 229, 235, 0.8); }
+form .contact-info-group label {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form .contact-info-group label:nth-child(1) {
+    padding-right: 10%; }
+form .contact-info-group label:nth-child(2) {
+    padding-left: 10%; }
+form .contact-info-group label:nth-child(3) {
+    padding-right: 10%; }
+form .contact-info-group label:nth-child(4) {
+    padding-left: 10%; }
+
+form label {
+    display: block;
+    margin-bottom: 20px; }
+form label span {
+    display: block; }
+
+.contactcall .intro-text {
+    font-size: 2em;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.contact-information h2 {
+    font-size: 2em;
+    color: #c4e5eb;
+    font-weight: 300;
+}
+
+.form-success {
+    background: #e5eaee;
+    text-align: center; }
+.form-success p {
+    font-size: 18px; }
+
+form .contact-info-group span{
+    margin-bottom: 15px;
+}
+
+.contact-information {
+    display: flex;
+
+}
+
+.information-side {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.contact-information-yeti {
+    width: 50%;
+}
+
+.img-yeti {
+    width: 60%;
+}
+
+.map-information{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.map-img{
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-device-width: 480px){
+
+    form .contact-info-group label {
+        width: 100%;
+    }
+
+    form .contact-info-group label:nth-child(1) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(2) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(3) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(4) {
+        padding: 0;
+    }
+
+    form [type="submit"] {
+        width: 100%;
+    }
+
+    .contactcall{
+        margin: 0% 0 50% 0;
+        padding: 30% 0 0 0;
+    }
+
+    .contactcall .intro-text {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contactcall #form-title {
+        font-size: 2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact-information {
+        margin-left: 5%;
+    }
+
+    .contact-information h2 {
+        font-size: 1.3em;
+        color: #c4e5eb;
+        font-weight: 300;
+    }
+
+    /*.contact-information-yeti {*/
+        /*position: absolute;*/
+        /*left: 45%;*/
+        /*top: 71%;*/
+    /*}*/
+
+    .map-img{
+        display: none;
+    }
+
+    .img-yeti {
+        width: 100%;
+        padding-top: 40%;
+    }
+}
+
+@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+    form .contact-info-group label {
+        width: 100%;
+    }
+
+    form .contact-info-group label:nth-child(1) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(2) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(3) {
+        padding: 0;
+    }
+
+    form .contact-info-group label:nth-child(4) {
+        padding: 0;
+    }
+
+    form [type="submit"] {
+        width: 100%;
+    }
+
+    .contactcall{
+        margin: 0% 0 35% 0;
+        padding: 30% 0 0 0;
+    }
+
+    .contactcall .intro-text {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contactcall #form-title {
+        font-size: 2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact-information {
+        margin-left: 5%;
+    }
+
+    .contact-information h2 {
+        font-size: 1.3em;
+        color: #c4e5eb;
+        font-weight: 300;
+    }
+
+    /*.contact-information-yeti {*/
+    /*position: absolute;*/
+    /*left: 45%;*/
+    /*top: 71%;*/
+    /*}*/
+
+    .map-img{
+        display: none;
+    }
+
+    .img-yeti {
+        width: 100%;
+        padding-top: 0%;
+    }
+}

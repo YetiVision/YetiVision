@@ -1,0 +1,57 @@
+#section-newsletter{
+    background-color: #615da1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#section-newsletter .row {
+    margin: 0;
+}
+
+#section-newsletter h2 {
+    font-size: 1.7em;
+}
+
+#section-newsletter form{
+    margin-bottom: 0;
+}
+
+#mc_embed_signup #mce-EMAIL{
+    border: 3px solid #c4e5eb;
+    width: 500px;
+}
+
+#mc-embedded-subscribe{
+    margin-top: 2%;
+    background-color: #c4e5eb;
+    color: #000;
+    border: 0;
+    width: 80%;
+}
+
+#mc-embedded-subscribe:hover{
+    background-color: rgba(196,229,235,0.8);
+}
+
+@media all and (max-width: 980px) {
+    #mc_embed_signup #mce-EMAIL{
+        width: 100%;
+    }
+
+    #section-newsletter h2 {
+        font-size: 1.1em;
+    }
+
+    .mc-field-group label, .indicates-required{
+        font-size: 0.9em;
+    }
+
+    form label {
+        margin-bottom: 5px;
+    }
+
+    #mc-embedded-subscribe{
+        width: 60%;
+        font-size: 1em;
+    }
+}

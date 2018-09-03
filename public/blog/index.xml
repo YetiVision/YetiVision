@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Yeti-Vision</title>
+    <link>https://example.org/blog/</link>
+    <description>Recent content in Blogs on Yeti-Vision</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 13 Aug 2018 10:27:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post6</title>
+      <link>https://example.org/blog/post6/</link>
+      <pubDate>Mon, 13 Aug 2018 10:27:20 +0200</pubDate>
+      
+      <guid>https://example.org/blog/post6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt non nulla ac commodo. Nulla fringilla ante tellus, at euismod tortor efficitur ac. Aliquam tempor, ligula eget placerat elementum, enim mi luctus felis, vitae vestibulum tortor mauris vel justo. Phasellus lacinia ipsum mollis, euismod orci vel, mattis justo. Vivamus id condimentum tellus, ut vehicula mi. Maecenas euismod facilisis facilisis. Cras ut nunc non tellus dapibus pharetra. Mauris eleifend fermentum odio, a suscipit sem semper quis.</description>
+    </item>
+    
+  </channel>
+</rss>
