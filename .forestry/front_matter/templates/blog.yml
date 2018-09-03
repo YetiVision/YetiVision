@@ -25,5 +25,3 @@ fields:
 - type: tag_list
   name: categories
   label: Categories
-pages:
-- content/blog/blup.md
