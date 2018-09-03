@@ -1,0 +1,27 @@
+---
+label: Blog
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Article title
+  config:
+    required: true
+- type: datetime
+  name: data
+  label: Data
+  description: Article date
+  config:
+    date_format: YYYY/MM/DD
+    required: true
+- type: file
+  label: Img
+  name: img
+- type: text
+  name: author
+  label: Author
+- type: tag_list
+  name: categories
+  label: Categories
