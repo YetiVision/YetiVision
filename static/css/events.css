@@ -194,6 +194,21 @@
     }
 }
 
+@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .snip1554 {
+        background-color: #c4e5eb;
+        color: #000;
+        display: inline-block;
+        font-size: 14px;
+        margin: 8px;
+        overflow: hidden;
+        position: relative;
+        text-align: left;
+        width: 32%;
+    }
+}
+
+
 /* SINGLE PAGE */
 
 #section-single-event {

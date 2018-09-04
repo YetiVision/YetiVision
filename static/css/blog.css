@@ -175,15 +175,12 @@
     padding: 5% 0 0 0;
 }
 
-.btn-readmore a {
-    color: #000;
-}
-
 .btn-readmore {
     background-color: rgba(196, 229, 235, 0.7);
     border: none;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    color: #000;
 }
 
 .btn-readmore:hover {
@@ -450,6 +447,22 @@
     #icon-fb-single-post, #icon-twitter-single-post, #icon-instagram-single-post {
         width: 40px;
         height: 40px;
+    }
+}
+
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .snip1552 {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: auto;
+        width: 32%;
+        color: #000000;
+        text-align: left;
+        font-size: 16px;
+        background-color: #fff;
+        height: 290px;
     }
 }
 

@@ -4299,7 +4299,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1367px) {
+@media (min-width: 992px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;

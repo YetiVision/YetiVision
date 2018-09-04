@@ -25,7 +25,7 @@
 
 .lrg-logo {
     position:absolute;
-    width: 300px;
+    width: 21%;
     left:45%;
     top: 10%;
     z-index:1;
@@ -33,7 +33,7 @@
 
 .sml-logo {
     position:absolute;
-    width: 150px;
+    width: 11%;
     left:47%;
     top: 0%;
     z-index:1;
@@ -199,5 +199,23 @@
         left: 40%;
         top: 55%;
         z-index:1;
+    }
+}
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .lrg-logo {
+        position:absolute;
+        width: 21%;
+        left:45%;
+        top: 10%;
+        z-index:1;
+    }
+
+    .social-icon-menu {
+        display: flex;
+        position: absolute;
+        top: 6%;
+        left: 75%;
+        width: 45%;
     }
 }

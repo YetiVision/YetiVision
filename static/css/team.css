@@ -229,3 +229,30 @@
         display: none;
     }
 }
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    .icon-profile {
+        width: 16%;
+        position: absolute;
+        top: 43%;
+        left: 67%;
+    }
+
+    .jimmy-souleve-left {
+        position: absolute;
+        left: 27%;
+        top: 80%;
+    }
+
+    .jimmy-souleve-right {
+        position: absolute;
+        left: 65%;
+        top: 80%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+}
