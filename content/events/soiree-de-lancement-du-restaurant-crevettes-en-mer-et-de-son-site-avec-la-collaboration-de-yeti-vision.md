@@ -1,7 +1,7 @@
 ---
 title: "Soirée de lancement du restaurant 'Crevettes en Mer' et de son site avec la collaboration de Yeti Vision"
 date: 2018-08-21T13:27:18+02:00
-draft: true
+draft: false
 img: "/img/events/crevettes-en-mer.jpg"
 categories: "event"
 ---

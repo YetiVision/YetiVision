@@ -1,7 +1,7 @@
 ---
 title: "Journée de campagne de Yeti Vision à Nice"
 date: 2018-08-21T13:31:35+02:00
-draft: true
+draft: false
 img: "/img/events/campagne-nice.jpg"
 categories: "event"
 ---

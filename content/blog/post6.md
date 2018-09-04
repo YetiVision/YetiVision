@@ -1,7 +1,7 @@
 ---
 title: "Post6"
 date: 2018-08-13T10:27:20+02:00
-draft: false
+draft: true
 img: "/img/blog/post2.jpg"
 author: "Maxime"
 categories: "post"

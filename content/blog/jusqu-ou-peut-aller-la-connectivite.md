@@ -1,7 +1,7 @@
 ---
 title: "Jusqu'où peut aller la connectivité"
 date: 2018-08-20T11:49:28+02:00
-draft: true
+draft: false
 img: "/img/blog/connectivite.jpg"
 author: "Jimmy"
 categories: "post"

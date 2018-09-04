@@ -1,11 +1,10 @@
 ---
 title: "Le Responsive Design"
 date: 2018-08-30T10:16:52+02:00
-draft: true
+draft: false
 img: "/img/blog/responsive-design.jpg"
 author: "Maxime"
 categories: "post"
-angledQuotes: true
 ---
 
 Un sujet que beaucoup de développeur web redoute, le responsive design. Qu'est-ce que c'est ? L'adaptation du contenu du site en fonction de l'écran.

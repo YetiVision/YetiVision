@@ -1,6 +1,6 @@
 ---
 title: "Formations"
-draft: true
+draft: false
 img : "/img/work/services_formation.jpg"
 imgSingle: "/img/work/services_formation_single.jpg"
 icon: "/img/icones/formation_black.png"

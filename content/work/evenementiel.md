@@ -1,6 +1,6 @@
 ---
 title: "Evenementiel"
-draft: true
+draft: false
 img : "/img/work/services_event.jpg"
 imgSingle: "/img/work/services_event.jpg"
 icon: "/img/icones/event_black.png"

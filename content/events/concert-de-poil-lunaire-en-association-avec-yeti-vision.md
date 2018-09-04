@@ -1,7 +1,7 @@
 ---
 title: "Concert de Poil-Lunaire en association avec Yeti Vision"
 date: 2018-08-21T13:21:10+02:00
-draft: true
+draft: false
 img: "/img/events/concert.jpg"
 categories: "event"
 ---

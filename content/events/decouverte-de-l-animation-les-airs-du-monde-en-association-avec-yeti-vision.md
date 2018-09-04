@@ -1,7 +1,7 @@
 ---
 title: "Découverte de l'animation 'les airs du monde' en association avec Yeti Vision"
 date: 2018-08-21T13:24:58+02:00
-draft: true
+draft: false
 img: "/img/events/airs-du-monde.jpg"
 categories: "event"
 ---

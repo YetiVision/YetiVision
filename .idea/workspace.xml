@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="" />
+    <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/content/blog/conseils-hackeuse.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/conseils-hackeuse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/jusqu-ou-peut-aller-la-connectivite.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/jusqu-ou-peut-aller-la-connectivite.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/le-marche-de-levenementiel-reprend-des-couleurs.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/le-marche-de-levenementiel-reprend-des-couleurs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/le-responsive-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/le-responsive-design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/post6.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/post6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/concert-de-poil-lunaire-en-association-avec-yeti-vision.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/concert-de-poil-lunaire-en-association-avec-yeti-vision.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/decouverte-de-l-animation-les-airs-du-monde-en-association-avec-yeti-vision.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/decouverte-de-l-animation-les-airs-du-monde-en-association-avec-yeti-vision.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/journee-de-campagne-de-yeti-vision-a-nice.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/journee-de-campagne-de-yeti-vision-a-nice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/portes-ouvertes-de-l-agence-yeti-vision.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/portes-ouvertes-de-l-agence-yeti-vision.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/work/creation.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/work/creation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/work/developpement.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/work/developpement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/work/ergonomie.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/work/ergonomie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/work/evenementiel.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/work/evenementiel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/work/formations.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/work/formations.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +53,7 @@
           <entry key="html" value="367" />
           <entry key="js" value="26" />
           <entry key="json" value="1" />
-          <entry key="md" value="102" />
+          <entry key="md" value="120" />
           <entry key="scss" value="7" />
           <entry key="toml" value="58" />
           <entry key="url" value="1" />
@@ -49,7 +67,7 @@
           <entry key="HTML" value="367" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="26" />
-          <entry key="Markdown" value="102" />
+          <entry key="Markdown" value="120" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
           <entry key="TOML file" value="58" />
@@ -61,7 +79,7 @@
           <entry key="css" value="9252" />
           <entry key="html" value="12455" />
           <entry key="js" value="781" />
-          <entry key="md" value="9340" />
+          <entry key="md" value="9349" />
           <entry key="scss" value="22" />
           <entry key="toml" value="2540" />
           <entry key="yml" value="6" />
@@ -72,7 +90,7 @@
           <entry key="CSS" value="9252" />
           <entry key="HTML" value="12455" />
           <entry key="JavaScript" value="781" />
-          <entry key="Markdown" value="9340" />
+          <entry key="Markdown" value="9349" />
           <entry key="SCSS" value="22" />
           <entry key="TOML file" value="2540" />
           <entry key="YAML" value="6" />
@@ -82,11 +100,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/events/decouverte-de-l-animation-les-airs-du-monde-en-association-avec-yeti-vision.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/events/journee-de-campagne-de-yeti-vision-a-nice.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/events/portes-ouvertes-de-l-agence-yeti-vision.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/work/creation.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/work/developpement.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/work/ergonomie.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/work/evenementiel.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/work/formations.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        <entry file="file://$PROJECT_DIR$/content/work/marketing.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -143,22 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/archetypes/work.md" />
-        <option value="$PROJECT_DIR$/content/work/developpement.md" />
-        <option value="$PROJECT_DIR$/content/work/marketing.md" />
-        <option value="$PROJECT_DIR$/content/work/ergonomie.md" />
-        <option value="$PROJECT_DIR$/content/work/evenementiel.md" />
-        <option value="$PROJECT_DIR$/content/work/formations.md" />
-        <option value="$PROJECT_DIR$/static/js/work.js" />
-        <option value="$PROJECT_DIR$/layouts/events/baseof.html" />
-        <option value="$PROJECT_DIR$/layouts/work/baseof.html" />
-        <option value="$PROJECT_DIR$/layouts/contactcall/baseof.html" />
-        <option value="$PROJECT_DIR$/content/events/concert-de-poil-lunaire-en-association-avec-yeti-vision.md" />
-        <option value="$PROJECT_DIR$/static/js/scroll.js" />
-        <option value="$PROJECT_DIR$/static/js/btn-scroll-top.js" />
-        <option value="$PROJECT_DIR$/static/js/social-icon.js" />
-        <option value="$PROJECT_DIR$/layouts/partials/pagination.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/newsletter.html" />
         <option value="$PROJECT_DIR$/layouts/events/list.html" />
         <option value="$PROJECT_DIR$/layouts/blog/single.html" />
         <option value="$PROJECT_DIR$/layouts/work/single.html" />
@@ -183,17 +296,33 @@
         <option value="$PROJECT_DIR$/static/css/events.css" />
         <option value="$PROJECT_DIR$/static/css/contactcall.css" />
         <option value="$PROJECT_DIR$/layouts/partials/about.html" />
-        <option value="$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md" />
         <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/layouts/partials/slider.html" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/layouts/blog/baseof.html" />
-        <option value="$PROJECT_DIR$/content/blog/le-responsive-design.md" />
         <option value="$PROJECT_DIR$/layouts/blog/list.html" />
         <option value="$PROJECT_DIR$/static/css/sliders.css" />
         <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
         <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/blog/conseils-hackeuse.md" />
+        <option value="$PROJECT_DIR$/content/blog/jusqu-ou-peut-aller-la-connectivite.md" />
+        <option value="$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md" />
+        <option value="$PROJECT_DIR$/content/blog/le-marche-de-levenementiel-reprend-des-couleurs.md" />
+        <option value="$PROJECT_DIR$/content/blog/le-responsive-design.md" />
+        <option value="$PROJECT_DIR$/content/blog/post6.md" />
+        <option value="$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md" />
+        <option value="$PROJECT_DIR$/content/events/concert-de-poil-lunaire-en-association-avec-yeti-vision.md" />
+        <option value="$PROJECT_DIR$/content/events/decouverte-de-l-animation-les-airs-du-monde-en-association-avec-yeti-vision.md" />
+        <option value="$PROJECT_DIR$/content/events/journee-de-campagne-de-yeti-vision-a-nice.md" />
+        <option value="$PROJECT_DIR$/content/events/portes-ouvertes-de-l-agence-yeti-vision.md" />
+        <option value="$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md" />
+        <option value="$PROJECT_DIR$/content/work/creation.md" />
+        <option value="$PROJECT_DIR$/content/work/developpement.md" />
+        <option value="$PROJECT_DIR$/content/work/ergonomie.md" />
+        <option value="$PROJECT_DIR$/content/work/evenementiel.md" />
+        <option value="$PROJECT_DIR$/content/work/formations.md" />
+        <option value="$PROJECT_DIR$/content/work/marketing.md" />
       </list>
     </option>
   </component>
@@ -235,6 +364,17 @@
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,12 +452,12 @@
       <workItem from="1535612879773" duration="8140000" />
       <workItem from="1535956278929" duration="14255000" />
       <workItem from="1536044161158" duration="1899000" />
-      <workItem from="1536046417736" duration="5307000" />
+      <workItem from="1536046417736" duration="6444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273236000" />
+    <option name="totallyTimeSpent" value="274373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -372,83 +512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/btn-scroll-top.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/social-icon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/glyph-iconset-master/package.json" />
-    <entry file="file://$PROJECT_DIR$/layouts/partials/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/team.toml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/blog/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="107" lean-forward="true" selection-start-line="36" selection-start-column="107" selection-end-line="36" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/contactcall/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="16" column="116" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="161" column="8" selection-start-line="161" selection-start-column="4" selection-end-line="161" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/contact.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -522,32 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/conseils-hackeuse.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/le-marche-de-levenementiel-reprend-des-couleurs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -580,14 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="135" selection-start-line="135" selection-end-line="135" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/jusqu-ou-peut-aller-la-connectivite.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -691,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/le-responsive-design.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -719,6 +738,186 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/jusqu-ou-peut-aller-la-connectivite.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/conseils-hackeuse.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/le-marche-de-levenementiel-reprend-des-couleurs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/le-responsive-design.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/post6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/events/apres-midi-d-informations-pour-formation-a-l-agence-yeti-vision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/events/concert-de-poil-lunaire-en-association-avec-yeti-vision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/events/decouverte-de-l-animation-les-airs-du-monde-en-association-avec-yeti-vision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/events/journee-de-campagne-de-yeti-vision-a-nice.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/events/portes-ouvertes-de-l-agence-yeti-vision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/events/soiree-de-lancement-du-restaurant-crevettes-en-mer-et-de-son-site-avec-la-collaboration-de-yeti-vision.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/work/creation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/work/developpement.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/work/ergonomie.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/work/evenementiel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/work/formations.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/work/marketing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
