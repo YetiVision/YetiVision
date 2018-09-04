@@ -25,17 +25,17 @@
 
 .lrg-logo {
     position:absolute;
-    width: 21%;
-    left:45%;
+    width: 15%;
+    left:44%;
     top: 10%;
     z-index:1;
 }
 
 .sml-logo {
     position:absolute;
-    width: 11%;
+    width: 7%;
     left:47%;
-    top: 0%;
+    top: 6%;
     z-index:1;
 }
 
@@ -279,6 +279,14 @@
         width: 21%;
         left:45%;
         top: 10%;
+        z-index:1;
+    }
+
+    .sml-logo {
+        position:absolute;
+        width: 10%;
+        left:47%;
+        top: 6%;
         z-index:1;
     }
 
