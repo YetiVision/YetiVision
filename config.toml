@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "http://www.yetivision.maxime-enrietto.fr/"
 languageCode = "fr"
 title = "Yeti-Vision"
 theme = "hugo-artists-theme"
