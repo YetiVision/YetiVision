@@ -5,9 +5,10 @@ draft: true
 img: "/img/blog/responsive-design.jpg"
 author: "Maxime"
 categories: "post"
+angledQuotes: true
 ---
 
-Un sujet que beaucoup de développeur web redoute, le responsive deisgn. Qu'est-ce que c'est ? L'adaptation du contenu du site en fonction de l'écran.
+Un sujet que beaucoup de développeur web redoute, le responsive design. Qu'est-ce que c'est ? L'adaptation du contenu du site en fonction de l'écran.
 
 Et oui, aujourd'hui plus de deux personnes sur trois consultent les sites internet sur une plateforme mobile. On pourrait alors se poser une question, est-ce que l'on créé un site pour mobile (en plus du site principal) ?
 
