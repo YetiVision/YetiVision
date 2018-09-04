@@ -10,10 +10,16 @@
                 <figcaption>
                     <h3>{{ .Title }}</h3>
 
-                    <p>{{slicestr .Summary 0 200}}...<br>
-                        <em style="color: black; float: right;"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-                            <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
-                            </time></em></p>
+                    <p>
+                        {{.Summary}}
+                    </p>
+                    <p>
+                        <em style="color: black; float: right;">
+                            <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                            {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                            </time>
+                        </em>
+                    </p>
                 </figcaption>
                 <a href="{{ .RelPermalink }}"></a>
             </figure>
