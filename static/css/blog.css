@@ -136,7 +136,7 @@
     }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480px) and (max-device-width: 960px) {
     .section-blog h3 {
         font-size: 2em;
     }
@@ -165,6 +165,25 @@
     .snip1552 p {
         font-size: 1em;
         margin-top: 3%;
+    }
+}
+
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px) {
+    .snip1552 {
+        margin: auto;
+        width: 31vw;
+        height: 28vh;
+    }
+
+    .snip1552 h3 {
+        font-size: 0.9em;
+        margin-top: 0%;
+        padding-bottom: 0;
+    }
+
+    .snip1552 p {
+        font-size: 0.8em;
+        margin-top: 2%;
     }
 }
 
@@ -272,10 +291,10 @@
     }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
     #section-list-post {
-        margin: 0% 0 40% 0;
-        padding: 30% 0 0 0;
+        margin: 0% 0 25% 0;
+        padding: 15% 0 0 0;
     }
 
     .title-list-post {
@@ -307,6 +326,14 @@
         padding-bottom: 0;
     }
 }
+
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px){
+    #section-list-post {
+        margin: 0% 0 20% 0;
+        padding: 15% 0 0 0;
+    }
+}
+
 
 /* SINGLE PAGE */
 
@@ -411,10 +438,10 @@
     }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
     #section-single-post {
-        margin: 0% 0 35% 0;
-        padding: 30% 0 0 0;
+        margin: 0% 0 25% 0;
+        padding: 15% 0 0 0;
     }
 
     #section-single-post h1 {
@@ -450,8 +477,23 @@
     }
 }
 
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px){
+    #section-single-post {
+        margin: 0% 0 20% 0;
+        padding: 15% 0 0 0;
+    }
 
-@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    #section-single-post .btn-previous img{
+        display: none;
+    }
+
+    #section-single-post .btn-next img{
+        display: none;
+    }
+}
+
+
+@media all and (min-device-width: 1024.1px) and (max-device-width: 1366px) {
     .snip1552 {
         position: relative;
         display: inline-block;

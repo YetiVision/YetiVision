@@ -183,7 +183,7 @@ form .contact-info-group span{
     }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
     form .contact-info-group label {
         width: 100%;
     }
@@ -209,8 +209,8 @@ form .contact-info-group span{
     }
 
     .contactcall{
-        margin: 0% 0 35% 0;
-        padding: 30% 0 0 0;
+        margin: 0% 0 25% 0;
+        padding: 20% 0 0 0;
     }
 
     .contactcall .intro-text {
@@ -247,5 +247,12 @@ form .contact-info-group span{
     .img-yeti {
         width: 100%;
         padding-top: 0%;
+    }
+}
+
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px){
+    .contactcall{
+        margin: 0% 0 20% 0;
+        padding: 20% 0 0 0;
     }
 }

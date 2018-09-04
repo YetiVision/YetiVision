@@ -205,15 +205,15 @@
     }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
     .team_section h3 {
         font-size: 2em;
     }
 
     .icon-profile {
-        width: 10%;
+        width: 6%;
         position: absolute;
-        top: 40%;
+        top: 38%;
         left: 57%;
     }
 
@@ -230,7 +230,54 @@
     }
 }
 
-@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px) {
+    .team_section .row {
+        width: 100%;
+        margin: auto auto 5% auto;
+    }
+
+    .icon-profile {
+        width: 18%;
+        position: absolute;
+        top: 39%;
+        left: 71%;
+    }
+
+    .team_description {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #text_footer {
+        font-size: 1.2em;
+        margin: auto;
+        padding-top: 1%;
+        background-color: #c4e5eb;
+        text-align: center;
+        border-radius: 75px 75px 75px 75px;
+        font-size: 1em;
+    }
+
+    .jimmy-souleve-left {
+        position: absolute;
+        left: 28%;
+        top: 78%;
+    }
+
+    .jimmy-souleve-right {
+        position: absolute;
+        left: 64%;
+        top: 78%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+}
+
+@media all and (min-device-width: 1024.1px) and (max-device-width: 1366px) {
     .icon-profile {
         width: 16%;
         position: absolute;

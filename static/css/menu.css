@@ -133,7 +133,7 @@
 
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
     .section-header .navbar {
         top:70px;
         left: 76%;
@@ -146,11 +146,12 @@
 
     .section-header .navbar-collapse {
         position: absolute;
-        top: 35px;
-        left: -275px;
+        top: 0em;
+        left: -11.5em;
         background-color: rgba(196, 229, 235, 0.8);
         padding: 20px 0px 10px 35px;
-        width: 400px;
+        width: 25em;
+        z-index:10;
     }
 
     .arrow-right-mobile {
@@ -165,7 +166,7 @@
 
     .section-header .navbar-toggler {
         position: fixed;
-        left: 82%;
+        left: 91%;
         top: 9%;
         min-height: 50px;
         z-index: 12;
@@ -173,36 +174,106 @@
 
     .social-icon-menu .menu-social-icon-mobile-left {
         position: absolute;
-        width: 165px;
-        top: 3px;
-        left: -625px;
+        width: 17vw;
+        top: 0%;
+        left: -49em;
     }
 
     .social-icon-menu .menu-social-icon-mobile-right {
         position: absolute;
-        width: 165px;
-        left: -40px;
-        top: 3px;
+        width: 17vw;
+        left: -1em;
+        top: 0%;
     }
 
     .lrg-logo {
         position: absolute;
-        width: 150px;
-        left: 40%;
+        width: 15%;
+        left: 43%;
         top: 55%;
         z-index: 1;
     }
 
     .sml-logo {
-        position:absolute;
-        width: 150px;
-        left: 40%;
+        position: absolute;
+        width: 15%;
+        left: 43%;
         top: 55%;
-        z-index:1;
+        z-index: 1;
     }
 }
 
-@media all and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px){
+    .section-header .navbar {
+        top:70px;
+        left: 76%;
+    }
+
+    .section-header .navbar-toggler-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .section-header .navbar-collapse {
+        position: absolute;
+        top: 1em;
+        left: -10.5em;
+        background-color: rgba(196, 229, 235, 0.8);
+        padding: 20px 0px 10px 35px;
+        width: 25em;
+        z-index:10;
+    }
+
+    .arrow-right-mobile {
+        width: 15px;
+        position: absolute;
+        left: -15px;
+        top: 14px;
+        height: 11px;
+        background-image: url("/img/glyph-iconset-master/svg/si-glyph-arrow-right.svg");
+    }
+
+
+    .section-header .navbar-toggler {
+        position: fixed;
+        left: 91%;
+        top: 9%;
+        min-height: 50px;
+        z-index: 12;
+    }
+
+    .social-icon-menu .menu-social-icon-mobile-left {
+        position: absolute;
+        width: 17vw;
+        top: 0%;
+        left: -52em;
+    }
+
+    .social-icon-menu .menu-social-icon-mobile-right {
+        position: absolute;
+        width: 17vw;
+        left: 0em;
+        top: 0%;
+    }
+
+    .lrg-logo {
+        position: absolute;
+        width: 18%;
+        left: 42%;
+        top: 44%;
+        z-index: 1;
+    }
+
+    .sml-logo {
+        position: absolute;
+        width: 18%;
+        left: 42%;
+        top: 44%;
+        z-index: 1;
+    }
+}
+
+@media all and (min-device-width: 1024.1px) and (max-device-width: 1366px) {
     .lrg-logo {
         position:absolute;
         width: 21%;
