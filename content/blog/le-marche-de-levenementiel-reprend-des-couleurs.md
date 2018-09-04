@@ -1,7 +1,7 @@
 ---
 title: "Le marché de l'évenementiel reprend des couleurs"
 date: 2018-08-20T11:47:29+02:00
-draft: true
+draft: false
 img: "/img/blog/marche_evenementiel.jpg"
 author: "Jimmy"
 categories: "post"

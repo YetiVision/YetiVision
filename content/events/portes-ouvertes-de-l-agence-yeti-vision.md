@@ -1,7 +1,7 @@
 ---
 title: "Portes ouvertes de l'agence Yeti Vision"
 date: 2018-08-21T13:22:57+02:00
-draft: true
+draft: false
 img: "/img/events/portes-ouvertes.jpg"
 categories: "event"
 ---

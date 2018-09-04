@@ -441,11 +441,11 @@
     flex-direction: column;
 }
 
-.snip1581:hover img,
+/*.snip1581:hover img,
 .snip1581.hover img {
     -webkit-transform: scale(1.3) rotate(5deg);
     transform: scale(1.3) rotate(5deg);
-}
+}*/
 
 .single-service {
     margin: 0% 0 10% 0;
@@ -538,10 +538,10 @@
     }
 }
 
-@media all and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 480px) and (max-device-width: 960px) {
     .single-service {
-        margin: 0% 0 30% 0;
-        padding: 30% 0 0 0;
+        margin: 0% 0 25% 0;
+        padding: 15% 0 0 0;
     }
 
     .single-service .btn-previous img{
@@ -559,15 +559,15 @@
     .single-service .content-title-single-service{
         position: absolute;
         z-index: 5;
-        top: 35px;
-        left: 43%;
+        top: 2em;
+        left: 45%;
     }
 
     .single-service .div-icon {
         position: absolute;
         z-index: 5;
-        top: 70px;
-        left: 43%;
+        top: 5em;
+        left: 45%;
     }
 
     .div-icon img {
@@ -597,5 +597,68 @@
         box-shadow: none;
         width: 60%;
         margin-left: 22%;
+    }
+}
+
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px) {
+    .single-service {
+        margin: 0% 0 15% 0;
+        padding: 15% 0 0 0;
+    }
+
+    .single-service .btn-previous img{
+        display: none;
+    }
+
+    .single-service .btn-next img{
+        display: none;
+    }
+
+    .single-service h1 {
+        font-size: 2em;
+    }
+
+    .single-service .content-title-single-service{
+        position: absolute;
+        z-index: 5;
+        top: 6%;
+        left: 110%;
+    }
+
+    .single-service .div-icon {
+        position: absolute;
+        z-index: 5;
+        top: 14%;
+        left: 110%;
+    }
+
+    .div-icon img {
+        width:150px;
+        height: 150px;
+    }
+
+    .single-service .col-lg-5 {
+        margin-left: 0%;
+    }
+
+    .snip1581 img {
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    .single-service .col-lg-6 {
+        padding-left: 0;
+    }
+
+    .snip1581 figcaption {
+        position: unset;
+        font-size: 1em;
+
+    }
+
+    .snip1581 {
+        box-shadow: none;
+        width: 100%;
+        margin-left: -30%;
     }
 }

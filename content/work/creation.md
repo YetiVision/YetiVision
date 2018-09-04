@@ -1,6 +1,6 @@
 ---
 title: "Création"
-draft: true
+draft: false
 img : "/img/work/services_creation.jpg"
 imgSingle: "/img/work/services-creation-single.jpg"
 icon: "/img/icones/creation_black.png"

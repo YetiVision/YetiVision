@@ -1,7 +1,7 @@
 ---
 title: "Après-midi d'informations pour formation à l'agence Yeti Vision"
 date: 2018-08-21T13:30:00+02:00
-draft: true
+draft: false
 img: "/img/events/formation-yetivision.jpg"
 categories: "event"
 ---

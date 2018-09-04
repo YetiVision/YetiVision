@@ -1,6 +1,6 @@
     ---
 title: "Ergonomie"
-draft: true
+draft: false
 img : "/img/work/services_ergonomie.jpg"
 imgSingle: "/img/work/services_ergonomie_single.jpg"
 icon: "/img/icones/ergonomie_black.png"

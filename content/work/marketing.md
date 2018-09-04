@@ -1,6 +1,6 @@
 ---
 title: "Marketing"
-draft: true
+draft: false
 img : "/img/work/services_marketing.jpg"
 imgSingle: "/img/work/services_marketing_single"
 icon: "/img/icones/marketing_black.png"

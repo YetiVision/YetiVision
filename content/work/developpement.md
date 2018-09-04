@@ -1,6 +1,6 @@
 ---
 title: "Développement"
-draft: true
+draft: false
 img : "/img/work/services_dev.jpg"
 imgSingle: "/img/work/services_dev.jpg"
 icon: "/img/icones/dev_black.png"

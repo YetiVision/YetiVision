@@ -1,7 +1,7 @@
 ---
 title: "La nouvelle force des sites statiques"
 date: 2018-08-30T09:11:23+02:00
-draft: true
+draft: false
 img: "/img/blog/site-statique.jpeg"
 author: "Maxime"
 categories: "post"
