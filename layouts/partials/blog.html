@@ -9,11 +9,13 @@
                 <img src="{{ .Params.img }}" alt="sample91" />
                 <figcaption>
                     <h3>{{ .Title }}</h3>
-
-                    <p>{{.Summary}}<br>
-                        <em style="color: black; float: right;"><time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                    <p>{{.Summary}}<br></p>
+                    <p>
+                        <em style="color: black; float: right;">
+                            <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
                             <em>{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</em>
-                            </time></em></p>
+                            </time></em><br>
+                    </p>
                 </figcaption>
                 <a href="{{ .RelPermalink }}"></a>
             </figure>

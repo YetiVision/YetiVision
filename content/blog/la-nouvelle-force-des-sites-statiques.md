@@ -7,7 +7,7 @@ author: "Maxime"
 categories: "post"
 ---
 
-Rappelons un peu ce qu'est un site statique : c'est un site qui peut contenir des animations, des images, des vidéos et bien d'autres mais ce n'est pas un site qui change avec les informations utilisateurs par exemple.
+Rappelons un peu ce qu'est un site statique : c'est un site qui peut contenir des animations, des images, des vidéos et bien d'autres mais ce n'est pas un site qui change avec les informations utilisateurs par exemple. <!--more-->
 
 Vous pensiez que les sites statiques étaient démodés ? Que pensez-vous du notre ? Et oui, il a été conçu avec le générateur de site statique Hugo !
 
