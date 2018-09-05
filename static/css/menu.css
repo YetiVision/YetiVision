@@ -55,7 +55,7 @@
     height: 50px;
 }
 
-@media all and (max-device-width: 480px){
+@media all and (max-width: 480px){
     .section-header {
         min-height: 40px;
     }
@@ -67,11 +67,11 @@
 
     .section-header .navbar-collapse {
         position: absolute;
-        top: 105%;
-        left: -270px;
+        top: 0em;
+        left: -17em;
         background-color: rgba(196, 229, 235, 0.8);
         padding: 20px 0px 10px 35px;
-        width: 350px;
+        width: 98vw;
     }
 
     .arrow-right-mobile {
@@ -94,18 +94,18 @@
 
     .lrg-logo {
         position: absolute;
-        width: 125px;
-        left: 35%;
-        top: 42%;
+        width: 30%;
+        left: 34%;
+        top: 51%;
         z-index: 1;
     }
 
     .sml-logo {
-        position:absolute;
-        width: 125px;
-        left: 35%;
-        top: 42%;
-        z-index:1;
+        position: absolute;
+        width: 30%;
+        left: 34%;
+        top: 51%;
+        z-index: 1;
     }
 
     .social-icon-menu #icon-fb, .social-icon-menu #icon-twitter, .social-icon-menu #icon-linkedin, .social-icon-menu #icon-instagram, .social-icon-menu #icon-contact, .social-icon-menu #icon-news{
@@ -119,21 +119,20 @@
 
     .social-icon-menu .menu-social-icon-mobile-left {
         position: absolute;
-        width: 100px;
-        top: 5px;
-        left: -305px;
+        width: 28vw;
+        top: 0.2em;
+        left: -18em;
     }
 
     .social-icon-menu .menu-social-icon-mobile-right {
         position: absolute;
-        width: 100px;
-        left: -40px;
-        top: 5px;
+        width: 28vw;
+        left: -3em;
+        top: 0.2em;
     }
-
 }
 
-@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
+@media all and (min-width: 480.1px) and (max-width: 960px) {
     .section-header .navbar {
         top:70px;
         left: 76%;
@@ -203,7 +202,7 @@
     }
 }
 
-@media all and (min-device-width: 960.1px) and (max-device-width: 1024px){
+@media all and (min-width: 960.1px) and (max-width: 1024px){
     .section-header .navbar {
         top:70px;
         left: 76%;
@@ -273,7 +272,7 @@
     }
 }
 
-@media all and (min-device-width: 1024.1px) and (max-device-width: 1366px) {
+@media all and (min-width: 1024.1px) and (max-width: 1366px) {
     .lrg-logo {
         position:absolute;
         width: 21%;
