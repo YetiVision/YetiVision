@@ -6,7 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="32817bec-d1dc-4f08-98c1-bf7632ba70d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-artists-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-artists-theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/post/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/post/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/contactcall/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contactcall/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/contactcall/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/contactcall/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/contactcall.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/contactcall.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/events.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/events.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/sliders.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/sliders.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +63,7 @@
           <entry key="json" value="1" />
           <entry key="md" value="125" />
           <entry key="scss" value="7" />
-          <entry key="toml" value="58" />
+          <entry key="toml" value="59" />
           <entry key="url" value="1" />
           <entry key="yaml" value="1" />
           <entry key="yml" value="2" />
@@ -58,7 +78,7 @@
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="7" />
-          <entry key="TOML file" value="58" />
+          <entry key="TOML file" value="59" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -69,7 +89,7 @@
           <entry key="js" value="781" />
           <entry key="md" value="9385" />
           <entry key="scss" value="22" />
-          <entry key="toml" value="2540" />
+          <entry key="toml" value="2571" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
@@ -80,7 +100,7 @@
           <entry key="JavaScript" value="781" />
           <entry key="Markdown" value="9385" />
           <entry key="SCSS" value="22" />
-          <entry key="TOML file" value="2540" />
+          <entry key="TOML file" value="2571" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -89,10 +109,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/slider.html">
+        <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="-925">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -170,7 +190,6 @@
         <option value="$PROJECT_DIR$/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/layouts/blog/baseof.html" />
         <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/content/blog/conseils-hackeuse.md" />
         <option value="$PROJECT_DIR$/content/blog/jusqu-ou-peut-aller-la-connectivite.md" />
         <option value="$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md" />
@@ -200,6 +219,7 @@
         <option value="$PROJECT_DIR$/content/blog/le-responsive-design.md" />
         <option value="$PROJECT_DIR$/layouts/partials/blog.html" />
         <option value="$PROJECT_DIR$/layouts/partials/slider.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -209,7 +229,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="245" />
     <option name="y" value="474" />
     <option name="width" value="1280" />
@@ -241,17 +261,6 @@
             <path>
               <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
               <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yetivision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yetivision" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,17 +339,18 @@
       <workItem from="1535956278929" duration="14255000" />
       <workItem from="1536044161158" duration="1899000" />
       <workItem from="1536046417736" duration="24497000" />
-      <workItem from="1536131965535" duration="392000" />
+      <workItem from="1536131965535" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292818000" />
+    <option name="totallyTimeSpent" value="293919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,7 +363,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.19197397" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.61171365" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32104123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,13 +502,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml" />
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/la-nouvelle-force-des-sites-statiques.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -785,6 +788,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
