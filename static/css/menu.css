@@ -67,8 +67,8 @@
 
     .section-header .navbar-collapse {
         position: absolute;
-        top: 0em;
-        left: -17em;
+        top: 0.2em;
+        left: -15em;
         background-color: rgba(196, 229, 235, 0.8);
         padding: 20px 0px 10px 35px;
         width: 98vw;
@@ -119,15 +119,15 @@
 
     .social-icon-menu .menu-social-icon-mobile-left {
         position: absolute;
-        width: 28vw;
+        width: 32vw;
         top: 0.2em;
-        left: -18em;
+        left: -16em;
     }
 
     .social-icon-menu .menu-social-icon-mobile-right {
         position: absolute;
-        width: 28vw;
-        left: -3em;
+        width: 32vw;
+        left: -4em;
         top: 0.2em;
     }
 }
