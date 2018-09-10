@@ -7,6 +7,13 @@ author: "Loïc"
 categories: "post"
 ---
 
+Commençons par une définition : qu'est-ce qu'un persona ? 
+
+Un persona est, dans le domaine marketing, un personnage imaginaire représentant un groupe ou segment cible dans le cadre du développement d’un nouveau produit ou service ou d’une activité marketing prise dans sa globalité.
+
+Le persona est<!--more--> généralement doté d’un prénom et de caractéristiques sociales et psychologiques. Plusieurs personas peuvent être utilisés pour un même projet de développement. Le persona peut être même parfois représenté sous forme de story board en situation d’utilisation du produit ou service.
+
+
 I- PRÉSENTATION ET FINALITÉ DU PERSONA
 
 

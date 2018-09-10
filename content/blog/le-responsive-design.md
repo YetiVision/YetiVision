@@ -1,5 +1,5 @@
 ---
-title: "Le Responsive Design"
+title: "Comment adapter son site à tous types d'écran"
 date: 2018-08-30T10:16:52+02:00
 draft: false
 img: "/img/blog/responsive-design.jpg"
