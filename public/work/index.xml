@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Yeti-Vision</title>
+    <link>http://www.yetivision.maxime-enrietto.fr/work/</link>
+    <description>Recent content in Works on Yeti-Vision</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	<atom:link href="http://www.yetivision.maxime-enrietto.fr/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Création</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/work/creation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/work/creation/</guid>
+      <description> Charte graphique
+ Logo
+ Design UX/UI
+ Maquettes site internet et mobile
+ Print (flyer, cartes de visite, etc&amp;hellip;)
+ Infographie
+ Création et refonte d&amp;rsquo;identité visuelle
+  </description>
+    </item>
+    
+    <item>
+      <title>Développement</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/work/developpement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/work/developpement/</guid>
+      <description> Site internet sur mesure
+ Site e-commerce
+ Utilisation des CMS
+ Création d&amp;rsquo;application
+ Chat Bot
+ Hébergement web
+ Interface d&amp;rsquo;entreprise
+ Maintenance de site
+  </description>
+    </item>
+    
+    <item>
+      <title>Ergonomie</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/work/ergonomie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/work/ergonomie/</guid>
+      <description> Wireframings / Design d&amp;rsquo;intéractions
+ Personas
+ Test utilisateurs
+ Questionnaire utilisateurs
+  </description>
+    </item>
+    
+    <item>
+      <title>Evenementiel</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/work/evenementiel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/work/evenementiel/</guid>
+      <description> Création et suivi d&amp;rsquo;évènements
+ After movie
+ Package publicité complet
+ Packaging évènementiel (à venir)
+  </description>
+    </item>
+    
+    <item>
+      <title>Formations</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/work/formations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/work/formations/</guid>
+      <description> Formation de community management / gestion de projet
+ Formation des logiciels adobe (Photoshop &amp;amp; InDesign)
+  </description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/work/marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/work/marketing/</guid>
+      <description> Référencement naturel
+ Template marketing complet
+ Réseaux sociaux
+ Community management
+ Etude de marché
+ Business Plan
+  </description>
+    </item>
+    
+  </channel>
+</rss>

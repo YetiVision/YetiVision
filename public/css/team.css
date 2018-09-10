@@ -1,0 +1,305 @@
+.team_section .row {
+    margin: 0;
+}
+
+.face-lockup {
+    max-width: 780px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify; }
+.face-lockup .face-img {
+    margin-bottom: 4%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    box-ordinal-group: 3;
+    -webkit-order: 3;
+    -moz-order: 3;
+    order: 3;
+    -ms-flex-order: 3; }
+.face-lockup [class^="icon-"] path {
+    fill: #c99065; }
+.face-lockup [class^="icon-"].icon-pencil {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+    -webkit-order: 1;
+    -moz-order: 1;
+    order: 1;
+    -ms-flex-order: 1; }
+.face-lockup [class^="icon-"].icon-mouse {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    -webkit-order: 2;
+    -moz-order: 2;
+    order: 2;
+    -ms-flex-order: 2; }
+.face-lockup [class^="icon-"].icon-browser {
+    -webkit-box-ordinal-group: 4;
+    -moz-box-ordinal-group: 4;
+    box-ordinal-group: 4;
+    -webkit-order: 4;
+    -moz-order: 4;
+    order: 4;
+    -ms-flex-order: 4; }
+.face-lockup [class^="icon-"].icon-video {
+    -webkit-box-ordinal-group: 5;
+    -moz-box-ordinal-group: 5;
+    box-ordinal-group: 5;
+    -webkit-order: 5;
+    -moz-order: 5;
+    order: 5;
+    -ms-flex-order: 5; }
+
+.face-img{
+    margin: auto;
+}
+
+.face-lockup{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.team_description{
+    text-align: center;
+}
+
+
+.mobile{
+    height: 80px;
+    width: 80px;
+}
+
+.discuss{
+    height: 80px;
+    width: 80px;
+
+}
+
+#text_footer{
+    font-size: 1.2em;
+    margin: auto;
+    padding-top: 1%;
+    background-color: #c4e5eb;
+    text-align: center;
+    border-radius: 75px 75px 75px 75px;
+}
+
+#icon_discussion{
+    text-align: right;
+}
+
+#icon_footer{
+    text-align: right;
+}
+
+.team_section .row.col-lg-12{
+    padding-bottom: 15px;
+}
+
+.icon-profile {
+    width: 16%;
+    position: absolute;
+    top: 40%;
+    left: 62%;
+}
+
+.jimmy-souleve-left, .jimmy-souleve-right {
+    width: 8%;
+}
+
+.jimmy-souleve-left {
+    position: absolute;
+    left: 27%;
+    top: 70%;
+}
+
+.jimmy-souleve-right {
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+@media all and (max-device-width: 480px) {
+    .face-lockup {
+        display: block;
+        text-align: center;
+    }
+
+    .face-lockup div {
+        display: inline-block;
+    }
+
+    .face-lockup .face-img {
+        display: block;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0 auto 0px;
+    }
+
+    .face-lockup [class^="icon-"] {
+        margin: 10px 9%;
+    }
+
+    .team_section h3 {
+        font-size: 1.5em;
+    }
+
+    .team_section h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .icon-profile {
+        width: 16%;
+        position: absolute;
+        top: 42%;
+        left: 55%;
+    }
+
+    .team_section .row.col-lg-12{
+        display: none;
+    }
+
+    .team_section .row {
+        width: 100%;
+        margin: auto;
+    }
+
+    .team_description{
+        font-size: 0.9em;
+    }
+}
+
+@media all and (min-device-width: 480.1px) and (max-device-width: 960px) {
+    .team_section h3 {
+        font-size: 2em;
+    }
+
+    .icon-profile {
+        width: 6%;
+        position: absolute;
+        top: 38%;
+        left: 57%;
+    }
+
+    .team_description h2 {
+        font-size: 1.5em;
+    }
+
+    .team_description{
+        font-size: 1.1em;
+    }
+
+    .team_section .row.col-lg-12{
+        display: none;
+    }
+}
+
+@media all and (min-device-width: 960.1px) and (max-device-width: 1024px) {
+    .team_section .row {
+        width: 100%;
+        margin: auto auto 5% auto;
+    }
+
+    .icon-profile {
+        width: 18%;
+        position: absolute;
+        top: 39%;
+        left: 71%;
+    }
+
+    .team_description {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #text_footer {
+        font-size: 1.2em;
+        margin: auto;
+        padding-top: 1%;
+        background-color: #c4e5eb;
+        text-align: center;
+        border-radius: 75px 75px 75px 75px;
+        font-size: 1em;
+    }
+
+    .jimmy-souleve-left {
+        position: absolute;
+        left: 28%;
+        top: 78%;
+    }
+
+    .jimmy-souleve-right {
+        position: absolute;
+        left: 64%;
+        top: 78%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+}
+
+@media all and (min-device-width: 1024.1px) and (max-device-width: 1366px) {
+    .icon-profile {
+        width: 16%;
+        position: absolute;
+        top: 43%;
+        left: 67%;
+    }
+
+    .jimmy-souleve-left {
+        position: absolute;
+        left: 27%;
+        top: 80%;
+    }
+
+    .jimmy-souleve-right {
+        position: absolute;
+        left: 65%;
+        top: 80%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+}

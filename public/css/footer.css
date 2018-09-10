@@ -1,0 +1,44 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    min-height: 120px;
+
+    background-color: #6c6f71;
+}
+
+.footer .footer-content {
+    text-align: center;
+}
+
+.footer .footer-icons {
+    text-align: center;
+}
+
+.footer .footer-copyright {
+    text-align: center;
+}
+
+.footer #icon-fb-footer, .footer #icon-twitter-footer, .footer #icon-linkedin-footer, .footer #icon-instagram-footer, .footer #icon-contact-footer {
+    width: 50px;
+    height: 50px;
+}
+
+@media all and (max-width: 980px) {
+    .footer .footer-content {
+        font-size: 0.9em;
+    }
+
+    .footer #icon-fb-footer, .footer #icon-twitter-footer, .footer #icon-linkedin-footer, .footer #icon-instagram-footer, .footer #icon-contact-footer {
+        width: 30px;
+        height: 30px;
+        margin-top: 2%;
+    }
+
+    .footer .footer-copyright {
+        font-size: 0.9em;
+        margin-top: 2%;
+
+    }
+}
