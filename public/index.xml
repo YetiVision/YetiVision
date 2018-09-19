@@ -6,10 +6,30 @@
     <description>Recent content on Yeti-Vision</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 10 Sep 2018 08:56:18 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 14:15:23 +0200</lastBuildDate>
     
 	<atom:link href="http://www.yetivision.maxime-enrietto.fr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comment choisir ses mots de passe ?</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/blog/comment-choisir-ses-mots-de-passe/</link>
+      <pubDate>Mon, 10 Sep 2018 14:15:23 +0200</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/blog/comment-choisir-ses-mots-de-passe/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Un mot de passe pourquoi ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;De nos jours, la sécurité de nos données est de plus en plus importante et est mise à  rude épreuve par les hackers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Qu&#39;est-ce que le langage Go ?</title>
+      <link>http://www.yetivision.maxime-enrietto.fr/blog/qu-est-ce-que-le-langage-go/</link>
+      <pubDate>Mon, 10 Sep 2018 13:38:30 +0200</pubDate>
+      
+      <guid>http://www.yetivision.maxime-enrietto.fr/blog/qu-est-ce-que-le-langage-go/</guid>
+      <description>&lt;p&gt;Go est un langage de programmation compilé développé par google et inspiré des langages C et Pascal. Il a été lancé en 2009 par Robert Griesemer, Rob Pike etKen Thompson.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Comment créer un article pour son blog</title>
